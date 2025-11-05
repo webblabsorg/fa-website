@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | FARE',
-  description: 'Privacy Policy for FARE - Livestock Farm Management Software',
+  title: 'Privacy Policy | Fare2u',
+  description: 'Privacy Policy for Fare2u - Livestock Farm Management Software',
 }
 
 export default function PrivacyPolicy() {
@@ -26,10 +26,10 @@ export default function PrivacyPolicy() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">1. Introduction</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Welcome to FARE (Farm Animal Record & Expense tracking). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our livestock management software.
+              Welcome to Fare2u (Farm Animal Record & Expense tracking). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our livestock management software.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              FARE is a desktop application that stores data locally on your device. We do not collect, store, or access your farm data on our servers.
+              Fare2u is a desktop application that stores data locally on your device. We do not collect, store, or access your farm data on our servers.
             </p>
           </section>
 
@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
             
             <h3 className="text-xl font-semibold text-slate-900 mb-3">2.1 Information We Collect</h3>
             <p className="text-slate-600 leading-relaxed mb-4">
-              When you purchase FARE, we collect:
+              When you purchase Fare2u, we collect:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2 mb-4">
               <li>Name and email address (for license delivery)</li>
@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>Your livestock records or farm data</li>
               <li>Financial information stored in the application</li>
-              <li>Any data you enter into FARE</li>
+              <li>Any data you enter into Fare2u</li>
               <li>Usage analytics or tracking data from within the application</li>
             </ul>
           </section>
@@ -87,7 +87,7 @@ export default function PrivacyPolicy() {
 
             <h3 className="text-xl font-semibold text-slate-900 mb-3">4.3 Backup Responsibility</h3>
             <p className="text-slate-600 leading-relaxed">
-              Since your data is stored locally, you are responsible for backing it up. FARE provides export features to help you create backups to external storage or cloud services of your choice.
+              Since your data is stored locally, you are responsible for backing it up. Fare2u provides export features to help you create backups to external storage or cloud services of your choice.
             </p>
           </section>
 
@@ -133,7 +133,7 @@ export default function PrivacyPolicy() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">8. Children&apos;s Privacy</h2>
             <p className="text-slate-600 leading-relaxed">
-              FARE is not intended for children under 13. We do not knowingly collect information from children under 13. If we discover we have collected information from a child under 13, we will delete it immediately.
+              Fare2u is not intended for children under 13. We do not knowingly collect information from children under 13. If we discover we have collected information from a child under 13, we will delete it immediately.
             </p>
           </section>
 

@@ -4,8 +4,8 @@ import { CheckCircle, Download, Mail, Headphones, ArrowRight } from 'lucide-reac
 import { Button } from '@/components/ui/button'
 
 export const metadata: Metadata = {
-  title: 'Order Confirmed - Thank You! | FARE',
-  description: 'Your FARE license has been purchased successfully',
+  title: 'Order Confirmed - Thank You! | Fare2u',
+  description: 'Your Fare2u license has been purchased successfully',
   robots: {
     index: false,
     follow: false,
@@ -34,7 +34,7 @@ export default function SuccessPage({
           Payment Successful! 🎉
         </h1>
         <p className="text-xl text-slate-600 mb-8">
-          Welcome to FARE! Your lifetime license is ready.
+          Welcome to Fare2u! Your lifetime license is ready.
         </p>
 
         {/* Order Details */}
@@ -62,7 +62,7 @@ export default function SuccessPage({
                 <Download className="w-6 h-6 text-green-600" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 mb-1">2. Download FARE</h3>
+                <h3 className="font-bold text-slate-900 mb-1">2. Download Fare2u</h3>
                 <p className="text-slate-600 mb-3">
                   Use the download link in your email to get the installer for your operating system 
                   (Windows, macOS, or Linux).
@@ -84,7 +84,7 @@ export default function SuccessPage({
               <div>
                 <h3 className="font-bold text-slate-900 mb-1">3. Activate Your License</h3>
                 <p className="text-slate-600">
-                  Install FARE and enter your license key (from the email) to activate your lifetime access.
+                  Install Fare2u and enter your license key (from the email) to activate your lifetime access.
                 </p>
               </div>
             </div>
@@ -137,7 +137,7 @@ export default function SuccessPage({
 
         {/* Trust Message */}
         <p className="text-slate-500 text-sm mt-8">
-          Thank you for choosing FARE! We&apos;re excited to help you manage your farm better.
+          Thank you for choosing Fare2u! We&apos;re excited to help you manage your farm better.
         </p>
       </div>
     </div>

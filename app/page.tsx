@@ -9,7 +9,7 @@ export default function Home() {
     '@graph': [
       {
         '@type': 'SoftwareApplication',
-        name: 'FARE - Livestock Farm Management Software',
+        name: 'Fare2u - Livestock Farm Management Software',
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Windows, macOS, Linux',
         offers: {
@@ -20,7 +20,7 @@ export default function Home() {
           priceValidUntil: '2026-12-31',
           seller: {
             '@type': 'Organization',
-            name: 'FARE',
+            name: 'Fare2u',
           },
         },
         aggregateRating: {
@@ -36,7 +36,7 @@ export default function Home() {
       {
         '@type': 'Organization',
         '@id': 'https://fare2u.com/#organization',
-        name: 'FARE',
+        name: 'Fare2u',
         url: 'https://fare2u.com',
         logo: 'https://fare2u.com/logo.png',
         description: 'Professional livestock management software made simple',
@@ -69,7 +69,7 @@ export default function Home() {
             name: 'Is this really a one-time payment?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Yes! You pay $99 once and own FARE forever. No monthly fees, no recurring charges, no hidden costs. You get lifetime access to the software and all its features.',
+              text: 'Yes! You pay $99 once and own Fare2u forever. No monthly fees, no recurring charges, no hidden costs. You get lifetime access to the software and all its features.',
             },
           },
           {
@@ -77,7 +77,7 @@ export default function Home() {
             name: 'What types of livestock are supported?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'FARE supports all common livestock: cattle, sheep, goats, pigs, chickens, ducks, horses, rabbits, and more. You can also add custom animal types.',
+              text: 'Fare2u supports all common livestock: cattle, sheep, goats, pigs, chickens, ducks, horses, rabbits, and more. You can also add custom animal types.',
             },
           },
           {
@@ -85,7 +85,7 @@ export default function Home() {
             name: 'Can I use it offline?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Yes! FARE works completely offline on your computer. Your data is stored locally on your device. You can optionally sync to cloud storage, but it\'s not required.',
+              text: 'Yes! Fare2u works completely offline on your computer. Your data is stored locally on your device. You can optionally sync to cloud storage, but it\'s not required.',
             },
           },
           {
@@ -93,7 +93,7 @@ export default function Home() {
             name: 'Do you offer refunds?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Yes! We offer a no-questions-asked 30-day money-back guarantee. If FARE doesn\'t work for your farm for any reason, just email us within 30 days for a full refund.',
+              text: 'Yes! We offer a no-questions-asked 30-day money-back guarantee. If Fare2u doesn\'t work for your farm for any reason, just email us within 30 days for a full refund.',
             },
           },
         ],

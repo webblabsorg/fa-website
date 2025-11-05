@@ -17,7 +17,7 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    quote: "FARE saved me 10+ hours every week. I can now track all 200 cattle from my phone and never miss a vaccination. Best $99 I've spent on my ranch.",
+    quote: "Fare2u saved me 10+ hours every week. I can now track all 200 cattle from my phone and never miss a vaccination. Best $99 I've spent on my ranch.",
     author: "John Martinez",
     role: "Cattle Rancher",
     location: "Texas, USA",
@@ -33,7 +33,7 @@ const testimonials: Testimonial[] = [
     farmType: "Poultry Farm",
   },
   {
-    quote: "I'm not tech-savvy, but FARE is so simple to use. Within 2 days I had all my sheep records digitized. The support team helped me every step of the way.",
+    quote: "I'm not tech-savvy, but Fare2u is so simple to use. Within 2 days I had all my sheep records digitized. The support team helped me every step of the way.",
     author: "Carlos Rodriguez",
     role: "Sheep Farmer",
     location: "Brazil",
@@ -49,7 +49,7 @@ const testimonials: Testimonial[] = [
     farmType: "Poultry Farm",
   },
   {
-    quote: "Running a mixed livestock operation with goats, cattle, and chickens was overwhelming. FARE handles it all seamlessly. Highly recommend!",
+    quote: "Running a mixed livestock operation with goats, cattle, and chickens was overwhelming. Fare2u handles it all seamlessly. Highly recommend!",
     author: "Raj Patel",
     role: "Mixed Livestock Farmer",
     location: "India",
@@ -130,7 +130,7 @@ export function Testimonials() {
             variants={fadeInUp}
             className="text-xl text-slate-600 max-w-3xl mx-auto"
           >
-            Real stories from farmers who transformed their operations with FARE
+            Real stories from farmers who transformed their operations with Fare2u
           </motion.p>
         </motion.div>
 
@@ -218,7 +218,7 @@ export function Testimonials() {
           className="text-center mt-16"
         >
           <p className="text-slate-600">
-            <span className="font-bold text-2xl text-green-600">11,280+</span> farmers trust FARE to manage their operations
+            <span className="font-bold text-2xl text-green-600">11,280+</span> farmers trust Fare2u to manage their operations
           </p>
         </motion.div>
       </div>

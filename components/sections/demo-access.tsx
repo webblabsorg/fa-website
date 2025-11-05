@@ -27,7 +27,7 @@ export function DemoAccess() {
               Try It Yourself
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Experience FARE Live
+              Experience Fare2u Live
             </h2>
             <p className="text-xl text-green-100 max-w-2xl mx-auto">
               No signup required. Jump straight into a fully-functional demo 

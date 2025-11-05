@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { Shield, Clock, Mail, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Refund Policy | FARE',
-  description: 'Refund Policy for FARE - 30-Day Money-Back Guarantee',
+  title: 'Refund Policy | Fare2u',
+  description: 'Refund Policy for Fare2u - 30-Day Money-Back Guarantee',
 }
 
 export default function RefundPolicy() {
@@ -32,7 +32,7 @@ export default function RefundPolicy() {
             <div>
               <h2 className="text-2xl font-bold text-slate-900 mb-2">100% Satisfaction Guarantee</h2>
               <p className="text-slate-700 text-lg">
-                Try FARE risk-free for 30 days. If it doesn&apos;t work for your farm, we&apos;ll refund every penny. No questions asked.
+                Try Fare2u risk-free for 30 days. If it doesn&apos;t work for your farm, we&apos;ll refund every penny. No questions asked.
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function RefundPolicy() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Our Promise</h2>
             <p className="text-slate-600 leading-relaxed">
-              We stand behind FARE with a complete satisfaction guarantee. We want you to be 100% confident in your purchase, which is why we offer a full refund if the software doesn&apos;t meet your needs.
+              We stand behind Fare2u with a complete satisfaction guarantee. We want you to be 100% confident in your purchase, which is why we offer a full refund if the software doesn&apos;t meet your needs.
             </p>
           </section>
 
@@ -63,13 +63,13 @@ export default function RefundPolicy() {
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
                 <span className="text-slate-600">
-                  <strong>Any reason:</strong> You are not satisfied with FARE for any reason (technical issues, doesn&apos;t fit your workflow, etc.)
+                  <strong>Any reason:</strong> You are not satisfied with Fare2u for any reason (technical issues, doesn&apos;t fit your workflow, etc.)
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
                 <span className="text-slate-600">
-                  <strong>First purchase:</strong> This is your first purchase of FARE (refunds are limited to one per customer to prevent abuse)
+                  <strong>First purchase:</strong> This is your first purchase of Fare2u (refunds are limited to one per customer to prevent abuse)
                 </span>
               </li>
             </ul>
@@ -204,7 +204,7 @@ export default function RefundPolicy() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Before You Request a Refund</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              We want you to succeed with FARE. Before requesting a refund, consider:
+              We want you to succeed with Fare2u. Before requesting a refund, consider:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li><strong>Contact Support:</strong> We may be able to solve your issue quickly</li>

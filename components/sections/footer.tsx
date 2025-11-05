@@ -172,7 +172,7 @@ export function Footer() {
           <div className="text-center">
             {/* Copyright */}
             <p className="text-sm text-slate-500">
-              © {currentYear} FARE. All rights reserved.
+              © {currentYear} Fare2u. All rights reserved.
             </p>
           </div>
         </div>

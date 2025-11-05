@@ -13,7 +13,7 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     question: 'Is this really a one-time payment?',
-    answer: 'Yes! You pay $99 once and own FARE forever. No monthly fees, no recurring charges, no hidden costs. You get lifetime access to the software and all its features.',
+    answer: 'Yes! You pay $99 once and own Fare2u forever. No monthly fees, no recurring charges, no hidden costs. You get lifetime access to the software and all its features.',
   },
   {
     question: 'What happens after 6 months of support?',
@@ -21,15 +21,15 @@ const faqs: FAQItem[] = [
   },
   {
     question: 'Can I use it offline?',
-    answer: 'Yes! FARE works completely offline on your computer. Your data is stored locally on your device. You can optionally sync to cloud storage, but it\'s not required. Perfect for farms in rural areas with limited internet.',
+    answer: 'Yes! Fare2u works completely offline on your computer. Your data is stored locally on your device. You can optionally sync to cloud storage, but it\'s not required. Perfect for farms in rural areas with limited internet.',
   },
   {
     question: 'Is it suitable for small farms?',
-    answer: 'Absolutely! FARE scales from 10 animals to 10,000+. Whether you\'re a hobby farmer with a few chickens or managing a large commercial operation, FARE adapts to your needs. Start small and grow without limitations.',
+    answer: 'Absolutely! Fare2u scales from 10 animals to 10,000+. Whether you\'re a hobby farmer with a few chickens or managing a large commercial operation, Fare2u adapts to your needs. Start small and grow without limitations.',
   },
   {
     question: 'What types of livestock are supported?',
-    answer: 'FARE supports all common livestock: cattle, sheep, goats, pigs, chickens, ducks, horses, rabbits, and more. You can also add custom animal types. The system is flexible and adapts to any farming operation.',
+    answer: 'Fare2u supports all common livestock: cattle, sheep, goats, pigs, chickens, ducks, horses, rabbits, and more. You can also add custom animal types. The system is flexible and adapts to any farming operation.',
   },
   {
     question: 'How do I install it?',
@@ -37,7 +37,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: 'Can multiple users access it?',
-    answer: 'Yes! With the $99 license, you can install FARE on up to 3 devices for your farm. Multiple family members or employees can use it. You can also upgrade to unlimited devices for larger operations.',
+    answer: 'Yes! With the $99 license, you can install Fare2u on up to 3 devices for your farm. Multiple family members or employees can use it. You can also upgrade to unlimited devices for larger operations.',
   },
   {
     question: 'Is my data secure?',
@@ -45,11 +45,11 @@ const faqs: FAQItem[] = [
   },
   {
     question: 'Do you offer refunds?',
-    answer: 'Yes! We offer a no-questions-asked 30-day money-back guarantee. If FARE doesn\'t work for your farm for any reason, just email us within 30 days for a full refund. We want you to be 100% satisfied.',
+    answer: 'Yes! We offer a no-questions-asked 30-day money-back guarantee. If Fare2u doesn\'t work for your farm for any reason, just email us within 30 days for a full refund. We want you to be 100% satisfied.',
   },
   {
     question: 'What languages are available?',
-    answer: 'FARE is currently available in English, Spanish, French, Portuguese, and Swahili. We\'re actively adding more languages based on user requests. The interface is fully translatable, and we welcome community translations.',
+    answer: 'Fare2u is currently available in English, Spanish, French, Portuguese, and Swahili. We\'re actively adding more languages based on user requests. The interface is fully translatable, and we welcome community translations.',
   },
 ]
 
@@ -81,7 +81,7 @@ export function FAQ() {
               </span>
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Everything you need to know about FARE. Still have questions? 
+              Everything you need to know about Fare2u. Still have questions? 
               Contact our support team anytime.
             </p>
           </motion.div>

@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Fare - Livestock Management Software',
-    short_name: 'Fare',
+    name: 'Fare2u - Livestock Management Software',
+    short_name: 'Fare2u',
     description: 'Professional farm management system for cattle, poultry, pigs, goats. Track livestock, health records, sales, and expenses.',
     start_url: '/',
     display: 'standalone',
