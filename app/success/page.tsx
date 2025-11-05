@@ -64,7 +64,7 @@ export default function SuccessPage({
               <div>
                 <h3 className="font-bold text-slate-900 mb-1">2. Download Fare2u</h3>
                 <p className="text-slate-600 mb-3">
-                  Use the download link in your email to get the installation package. You'll need a domain name and hosting (we offer VPS hosting for $7/month).
+                  Use the download link in your email to get the installation package. You&apos;ll need a domain name and hosting (we offer VPS hosting for $7/month).
                 </p>
                 <Button asChild variant="outline" size="sm">
                   <a href="https://lsk.fare2u.com" target="_blank" rel="noopener noreferrer">

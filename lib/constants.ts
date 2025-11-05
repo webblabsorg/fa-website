@@ -27,7 +27,7 @@ export const STATS = {
   countries: 45,
   animalsTracked: 212900,
   healthRecords: 153300,
-  revenueManaged: 72000000,
+  revenueManaged: 272000000,
 } as const
 
 /**
