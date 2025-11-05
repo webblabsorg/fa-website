@@ -1,0 +1,13 @@
+# Fare - Livestock Management Software
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Disallow admin/checkout pages (when created)
+Disallow: /checkout
+Disallow: /success
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://your-domain.com/sitemap.xml
