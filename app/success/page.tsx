@@ -64,8 +64,7 @@ export default function SuccessPage({
               <div>
                 <h3 className="font-bold text-slate-900 mb-1">2. Download Fare2u</h3>
                 <p className="text-slate-600 mb-3">
-                  Use the download link in your email to get the installer for your operating system 
-                  (Windows, macOS, or Linux).
+                  Use the download link in your email to get the installation package. You'll need a domain name and hosting (we offer VPS hosting for $7/month).
                 </p>
                 <Button asChild variant="outline" size="sm">
                   <a href="https://lsk.fare2u.com" target="_blank" rel="noopener noreferrer">
@@ -84,7 +83,7 @@ export default function SuccessPage({
               <div>
                 <h3 className="font-bold text-slate-900 mb-1">3. Activate Your License</h3>
                 <p className="text-slate-600">
-                  Install Fare2u and enter your license key (from the email) to activate your lifetime access.
+                  Upload Fare2u to your hosting and enter your license key (from the email) to activate. Free installation service available - just contact us!
                 </p>
               </div>
             </div>

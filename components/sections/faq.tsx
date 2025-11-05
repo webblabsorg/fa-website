@@ -20,8 +20,8 @@ const faqs: FAQItem[] = [
     answer: 'The first 6 months include premium priority support. After that, you still have access to our standard support channels (email, documentation, community forum) for free. You can also upgrade to priority support anytime if needed.',
   },
   {
-    question: 'Can I use it offline?',
-    answer: 'Yes! Fare2u works completely offline on your computer. Your data is stored locally on your device. You can optionally sync to cloud storage, but it\'s not required. Perfect for farms in rural areas with limited internet.',
+    question: 'Where is the software installed?',
+    answer: 'Fare2u is a web-based application installed on your own domain and hosting. You need a domain name and hosting provider. We offer optional VPS hosting for $7/month, or you can use your own hosting. We provide free installation assistance.',
   },
   {
     question: 'Is it suitable for small farms?',
@@ -32,8 +32,8 @@ const faqs: FAQItem[] = [
     answer: 'Fare2u supports all common livestock: cattle, sheep, goats, pigs, chickens, ducks, horses, rabbits, and more. You can also add custom animal types. The system is flexible and adapts to any farming operation.',
   },
   {
-    question: 'How do I install it?',
-    answer: 'Installation is simple: download the installer for Windows, Mac, or Linux, run it, and you\'re ready in minutes. No technical knowledge required. We provide step-by-step video guides and setup wizards to help you get started.',
+    question: 'Do I need hosting?',
+    answer: 'Yes, Fare2u runs on your own domain and hosting. We provide VPS hosting for just $7/month (optional), or you can use your existing hosting provider. Free installation service is included with every purchase.',
   },
   {
     question: 'Can multiple users access it?',
@@ -41,7 +41,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: 'Is my data secure?',
-    answer: 'Your data is 100% yours and stays on your device. We don\'t collect, store, or access your farm data. You have full control. You can backup to your own cloud storage or external drives. No one sees your information but you.',
+    answer: 'Your data is 100% yours and stored on your own hosting. We don\'t collect, store, or access your farm data. You have full control and ownership. Your database is on your server, fully private and secure.',
   },
   {
     question: 'Do you offer refunds?',

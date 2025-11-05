@@ -43,7 +43,7 @@ export default function TermsOfService() {
               You may:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2 mb-4">
-              <li>Install Fare2u on up to 3 devices for your farm&apos;s use</li>
+              <li>Install Fare2u on your domain and hosting (one installation per license)</li>
               <li>Use the software for managing your livestock operations</li>
               <li>Create backups of your data</li>
               <li>Receive free updates for 1 year from purchase date</li>
@@ -114,7 +114,7 @@ export default function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">6. Data and Backups</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Fare2u stores all your data locally on your device. You are solely responsible for:
+              Fare2u stores all your data on your own hosting/server. You are solely responsible for:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>Creating regular backups of your data</li>

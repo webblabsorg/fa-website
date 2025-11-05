@@ -179,7 +179,7 @@ export default function RefundPolicy() {
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>Your license key will be deactivated</li>
               <li>You may continue using the software until the end of the 30-day period</li>
-              <li>You can keep any data you&apos;ve entered (it&apos;s stored locally on your device)</li>
+              <li>You can keep any data you&apos;ve entered (it&apos;s stored on your own hosting)</li>
               <li>You&apos;ll receive a confirmation email when the refund is complete</li>
             </ul>
           </section>

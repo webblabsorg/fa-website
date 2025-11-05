@@ -27,7 +27,7 @@ export const STATS = {
   countries: 45,
   animalsTracked: 212900,
   healthRecords: 153300,
-  revenueManaged: 12000000,
+  revenueManaged: 72000000,
 } as const
 
 /**
@@ -130,8 +130,8 @@ export const FAQ_ITEMS = [
     answer: 'You keep using the software with all features. Extended support is available at a low cost if needed, but most farmers find the documentation sufficient.',
   },
   {
-    question: 'Can I use it offline?',
-    answer: 'The system requires an internet connection for cloud access and updates. This ensures your data is always backed up and accessible from anywhere.',
+    question: 'Where is the software installed?',
+    answer: 'Fare2u is a web-based application installed on your own domain and hosting. You need a domain name and hosting provider. We offer optional VPS hosting for $7/month, or you can use your own hosting. We provide free installation assistance.',
   },
   {
     question: 'Is it suitable for small farms?',
@@ -142,8 +142,8 @@ export const FAQ_ITEMS = [
     answer: 'Cattle, poultry, pigs, goats, rabbits, and more. The system is fully customizable to track any type of livestock you manage.',
   },
   {
-    question: 'How do I install it?',
-    answer: 'Simple web-based installation on your hosting. Complete documentation and step-by-step video guides are included. Most farmers complete setup in under 30 minutes.',
+    question: 'Do I need hosting?',
+    answer: 'Yes, Fare2u runs on your own domain and hosting. We provide VPS hosting for just $7/month (optional), or you can use your existing hosting provider. Free installation service is included with every purchase.',
   },
   {
     question: 'Can multiple users access it?',

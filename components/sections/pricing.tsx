@@ -158,18 +158,31 @@ export function Pricing() {
                   </StripeCheckoutButton>
                 </motion.div>
 
+                {/* Hosting Note */}
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 1.1, duration: 0.5 }}
+                  className="mt-8 p-4 bg-blue-50 border border-blue-200 rounded-lg"
+                >
+                  <p className="text-sm text-slate-700 text-center">
+                    <strong>Hosting Required:</strong> Runs on your own domain. Optional VPS hosting: $7/month. Free installation included.
+                  </p>
+                </motion.div>
+
                 {/* Guarantee */}
                 <motion.div
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: 1.2, duration: 0.5 }}
-                  className="mt-6 text-center"
+                  className="mt-4 text-center"
                 >
                   <div className="flex items-center justify-center gap-2 text-slate-600">
                     <Shield className="w-5 h-5 text-green-600" />
                     <span className="text-sm">
-                      30-day money-back guarantee • Instant access • Setup in minutes
+                      30-day money-back guarantee • Free installation • Support included
                     </span>
                   </div>
                 </motion.div>

@@ -98,7 +98,7 @@ export function Hero() {
             <TrustBadge icon={Award} text="Lifetime License" delay={0} />
             <TrustBadge icon={Headphones} text="24/7 Support" delay={0.1} />
             <TrustBadge icon={Shield} text="Your Data Stays Private" delay={0.15} />
-            <TrustBadge icon={Globe} text="Used in 25+ Countries" delay={0.2} />
+            <TrustBadge icon={Globe} text="Used in 45+ Countries" delay={0.2} />
           </motion.div>
 
           {/* Social Proof Snippet */}

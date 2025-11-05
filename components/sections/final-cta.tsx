@@ -150,7 +150,7 @@ export function FinalCTA() {
               </div>
               <div className="hidden sm:block w-px h-12 bg-white/20" />
               <div className="text-center">
-                <div className="text-4xl font-bold text-green-200 mb-1">25+</div>
+                <div className="text-4xl font-bold text-green-200 mb-1">45+</div>
                 <div className="text-sm text-green-100">Countries</div>
               </div>
               <div className="hidden sm:block w-px h-12 bg-white/20" />

@@ -11,7 +11,7 @@ export default function Home() {
         '@type': 'SoftwareApplication',
         name: 'Fare2u - Livestock Farm Management Software',
         applicationCategory: 'BusinessApplication',
-        operatingSystem: 'Windows, macOS, Linux',
+        operatingSystem: 'Web-based',
         offers: {
           '@type': 'Offer',
           price: '99.00',
@@ -82,10 +82,10 @@ export default function Home() {
           },
           {
             '@type': 'Question',
-            name: 'Can I use it offline?',
+            name: 'Where is the software installed?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Yes! Fare2u works completely offline on your computer. Your data is stored locally on your device. You can optionally sync to cloud storage, but it\'s not required.',
+              text: 'Fare2u is a web-based application installed on your own domain and hosting. You need a domain name and hosting provider. We offer optional VPS hosting for $7/month, or you can use your own hosting. We provide free installation assistance.',
             },
           },
           {

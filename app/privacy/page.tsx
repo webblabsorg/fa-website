@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
               Welcome to Fare2u (Farm Animal Record & Expense tracking). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our livestock management software.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              Fare2u is a desktop application that stores data locally on your device. We do not collect, store, or access your farm data on our servers.
+              Fare2u is a web-based application that you install on your own domain and hosting. We do not collect, store, or access your farm data. All data is stored on your own server/hosting.
             </p>
           </section>
 
@@ -77,7 +77,7 @@ export default function PrivacyPolicy() {
             
             <h3 className="text-xl font-semibold text-slate-900 mb-3">4.1 Your Farm Data</h3>
             <p className="text-slate-600 leading-relaxed mb-4">
-              All your farm data (livestock records, health information, financial data) is stored locally on your device. You have complete control over this data. We cannot access it, and it is not transmitted to our servers.
+              All your farm data (livestock records, health information, financial data) is stored on your own hosting/server. You have complete control over this data. We cannot access it, and it is not transmitted to our servers.
             </p>
 
             <h3 className="text-xl font-semibold text-slate-900 mb-3">4.2 Purchase Information</h3>
@@ -87,7 +87,7 @@ export default function PrivacyPolicy() {
 
             <h3 className="text-xl font-semibold text-slate-900 mb-3">4.3 Backup Responsibility</h3>
             <p className="text-slate-600 leading-relaxed">
-              Since your data is stored locally, you are responsible for backing it up. Fare2u provides export features to help you create backups to external storage or cloud services of your choice.
+              Since your data is stored on your own hosting, you are responsible for backing it up. Fare2u provides export features to help you create backups. Most hosting providers offer automatic backup services.
             </p>
           </section>
 
