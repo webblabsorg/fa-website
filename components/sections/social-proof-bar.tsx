@@ -11,10 +11,10 @@ interface Stat {
 }
 
 const stats: Stat[] = [
-  { value: 500, label: 'Farms across 25+ countries', suffix: '+' },
-  { value: 10000, label: 'Animals Tracked', suffix: '+' },
-  { value: 50000, label: 'Health Records', suffix: '+' },
-  { value: 2, label: 'Revenue Managed', prefix: '$', suffix: 'M+' },
+  { value: 11280, label: 'Farms across 45+ countries', suffix: '+' },
+  { value: 212900, label: 'Animals Tracked', suffix: '+' },
+  { value: 153300, label: 'Health Records', suffix: '+' },
+  { value: 12, label: 'Revenue Managed', prefix: '$', suffix: 'M+' },
 ]
 
 function AnimatedCounter({ 

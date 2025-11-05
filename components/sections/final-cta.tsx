@@ -79,7 +79,7 @@ export function FinalCTA() {
             variants={fadeInUp}
             className="text-xl md:text-2xl text-green-100 mb-8"
           >
-            Join 500+ farmers who&apos;ve already simplified their operations and increased profitability
+            Join 11,280+ farmers who&apos;ve already simplified their operations and increased profitability
           </motion.p>
 
           {/* Benefits Grid */}
@@ -145,7 +145,7 @@ export function FinalCTA() {
           >
             <div className="flex flex-col sm:flex-row items-center justify-center gap-8 text-white">
               <div className="text-center">
-                <div className="text-4xl font-bold text-green-200 mb-1">500+</div>
+                <div className="text-4xl font-bold text-green-200 mb-1">11,280+</div>
                 <div className="text-sm text-green-100">Active Farms</div>
               </div>
               <div className="hidden sm:block w-px h-12 bg-white/20" />

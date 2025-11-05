@@ -23,11 +23,11 @@ export const PRICING = {
  * Social proof statistics
  */
 export const STATS = {
-  farms: 500,
-  countries: 25,
-  animalsTracked: 10000,
-  healthRecords: 50000,
-  revenueManaged: 2000000,
+  farms: 11280,
+  countries: 45,
+  animalsTracked: 212900,
+  healthRecords: 153300,
+  revenueManaged: 12000000,
 } as const
 
 /**

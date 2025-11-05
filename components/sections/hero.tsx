@@ -56,7 +56,7 @@ export function Hero() {
             className="text-base sm:text-lg text-slate-200 max-w-2xl mx-auto"
             variants={fadeInUp}
           >
-            Join 500+ farmers who&apos;ve ditched spreadsheets and paper for a system that actually helps them make better decisions, save time, and increase profits.
+            Join 11,280+ farmers who&apos;ve ditched spreadsheets and paper for a system that actually helps them make better decisions, save time, and increase profits.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -105,7 +105,7 @@ export function Hero() {
           <motion.div className="pt-8" variants={fadeInUp}>
             <p className="text-sage-200 text-sm">
               ⭐️ ⭐️ ⭐️ ⭐️ ⭐️{' '}
-              <span className="font-semibold">Trusted by farmers in 25+ countries</span>
+              <span className="font-semibold">Trusted by farmers in 45+ countries</span>
             </p>
           </motion.div>
         </div>

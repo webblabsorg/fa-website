@@ -2,6 +2,7 @@
 
 import { Facebook, Twitter, Instagram, Youtube, Linkedin, Mail, ExternalLink } from 'lucide-react'
 import Link from 'next/link'
+import { Logo } from '@/components/shared/logo'
 
 const footerLinks = {
   product: [
@@ -44,8 +45,8 @@ export function Footer() {
           {/* Column 1: Brand */}
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <h3 className="text-2xl font-bold text-white mb-2">FARE</h3>
-              <p className="text-sm text-slate-400 leading-relaxed">
+              <Logo size="sm" animate={false} showIcon={true} />
+              <p className="text-sm text-slate-400 leading-relaxed mt-3">
                 Professional Livestock Management Made Simple
               </p>
             </div>

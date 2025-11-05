@@ -183,17 +183,20 @@ export function Pricing() {
                   className="mt-8 pt-8 border-t border-slate-200"
                 >
                   <p className="text-center text-slate-500 text-sm mb-4">
-                    Secure payment powered by
+                    Secure payment powered by Stripe
                   </p>
-                  <div className="flex items-center justify-center gap-6 flex-wrap">
-                    <div className="px-4 py-2 bg-slate-100 rounded text-slate-600 font-semibold text-sm">
-                      Stripe
+                  <div className="flex items-center justify-center gap-4 flex-wrap">
+                    <div className="px-3 py-2 bg-slate-100 rounded text-slate-600 font-medium text-xs">
+                      💳 Debit/Credit Cards
                     </div>
-                    <div className="px-4 py-2 bg-slate-100 rounded text-slate-600 font-semibold text-sm">
-                      PayPal
+                    <div className="px-3 py-2 bg-slate-100 rounded text-slate-600 font-medium text-xs">
+                      🍎 Apple Pay
                     </div>
-                    <div className="px-4 py-2 bg-slate-100 rounded text-slate-600 font-semibold text-sm">
-                      Paystack
+                    <div className="px-3 py-2 bg-slate-100 rounded text-slate-600 font-medium text-xs">
+                      📱 Google Pay
+                    </div>
+                    <div className="px-3 py-2 bg-slate-100 rounded text-slate-600 font-medium text-xs">
+                      🏦 Bank Transfer
                     </div>
                   </div>
                 </motion.div>
@@ -207,7 +210,7 @@ export function Pricing() {
             className="text-center mt-12"
           >
             <p className="text-slate-600">
-              <span className="font-bold text-green-600">500+</span> farmers have already transformed their operations with FARE
+              <span className="font-bold text-green-600">11,280+</span> farmers have already transformed their operations with FARE
             </p>
           </motion.div>
         </motion.div>

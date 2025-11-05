@@ -34,7 +34,7 @@ const badges: Badge[] = [
   {
     icon: Globe,
     title: 'Global Community',
-    description: '500+ farmers in 25+ countries.',
+    description: '11,280+ farmers in 45+ countries.',
   },
   {
     icon: Shield,

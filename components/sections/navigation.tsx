@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { Logo } from '@/components/shared/logo'
 import { cn } from '@/lib/utils'
 
 const navLinks = [
@@ -51,27 +52,18 @@ export function Navigation() {
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
-            <motion.div
-              className="flex items-center"
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.2 }}
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault()
+                window.scrollTo({ top: 0, behavior: 'smooth' })
+              }}
             >
-              <a
-                href="#"
-                className={cn(
-                  'text-2xl md:text-3xl font-bold transition-colors duration-300',
-                  isScrolled
-                    ? 'text-primary-600'
-                    : 'text-white'
-                )}
-                onClick={(e) => {
-                  e.preventDefault()
-                  window.scrollTo({ top: 0, behavior: 'smooth' })
-                }}
-              >
-                Fare
-              </a>
-            </motion.div>
+              <Logo size="sm" animate={false} className={cn(
+                'transition-opacity duration-300',
+                isScrolled ? 'opacity-100' : 'opacity-90'
+              )} />
+            </a>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">

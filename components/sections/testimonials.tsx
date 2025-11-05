@@ -218,7 +218,7 @@ export function Testimonials() {
           className="text-center mt-16"
         >
           <p className="text-slate-600">
-            <span className="font-bold text-2xl text-green-600">500+</span> farmers trust FARE to manage their operations
+            <span className="font-bold text-2xl text-green-600">11,280+</span> farmers trust FARE to manage their operations
           </p>
         </motion.div>
       </div>
