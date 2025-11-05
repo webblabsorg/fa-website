@@ -1,10 +1,21 @@
 import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!)
+function getStripe() {
+  const secretKey = process.env.STRIPE_SECRET_KEY
+  if (!secretKey) {
+    throw new Error('STRIPE_SECRET_KEY is not configured')
+  }
+  return new Stripe(secretKey, {
+    apiVersion: '2025-10-29.clover',
+  })
+}
 
 export async function POST(req: NextRequest) {
   try {
+    // Initialize Stripe client
+    const stripe = getStripe()
+    
     const { priceId } = await req.json()
 
     // Use environment variable or default price ID
