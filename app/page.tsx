@@ -1,97 +1,159 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { CheckCircle2 } from "lucide-react"
+'use client'
+
+import { Hero, Navigation, SocialProofBar, ProblemSolution, FeaturesGrid, UseCases, DemoAccess, Testimonials, TrustBadges, Pricing, FAQ, FinalCTA, Footer } from "@/components/sections"
 
 export default function Home() {
+  // Structured Data (JSON-LD) for SEO
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'SoftwareApplication',
+        name: 'FARE - Livestock Farm Management Software',
+        applicationCategory: 'BusinessApplication',
+        operatingSystem: 'Windows, macOS, Linux',
+        offers: {
+          '@type': 'Offer',
+          price: '99.00',
+          priceCurrency: 'USD',
+          availability: 'https://schema.org/InStock',
+          priceValidUntil: '2026-12-31',
+          seller: {
+            '@type': 'Organization',
+            name: 'FARE',
+          },
+        },
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: '4.9',
+          ratingCount: '500',
+          bestRating: '5',
+          worstRating: '1',
+        },
+        description: 'Professional livestock farm management software for tracking animals, health records, sales, and expenses. One-time payment of $99 for lifetime access.',
+        screenshot: 'https://fare2u.com/dashboard-screenshot.png',
+      },
+      {
+        '@type': 'Organization',
+        '@id': 'https://fare2u.com/#organization',
+        name: 'FARE',
+        url: 'https://fare2u.com',
+        logo: 'https://fare2u.com/logo.png',
+        description: 'Professional livestock management software made simple',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: '635 W 42nd St',
+          addressLocality: 'New York',
+          addressRegion: 'NY',
+          postalCode: '10036',
+          addressCountry: 'US',
+        },
+        contactPoint: {
+          '@type': 'ContactPoint',
+          email: 'sales@fare2u.com',
+          telephone: '+1-646-693-8098',
+          contactType: 'Sales',
+          availableLanguage: ['English', 'Spanish', 'French', 'Portuguese', 'Swahili'],
+        },
+        sameAs: [
+          'https://facebook.com/fare',
+          'https://twitter.com/fare',
+          'https://linkedin.com/company/fare',
+        ],
+      },
+      {
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: 'Is this really a one-time payment?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes! You pay $99 once and own FARE forever. No monthly fees, no recurring charges, no hidden costs. You get lifetime access to the software and all its features.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'What types of livestock are supported?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'FARE supports all common livestock: cattle, sheep, goats, pigs, chickens, ducks, horses, rabbits, and more. You can also add custom animal types.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Can I use it offline?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes! FARE works completely offline on your computer. Your data is stored locally on your device. You can optionally sync to cloud storage, but it\'s not required.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Do you offer refunds?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes! We offer a no-questions-asked 30-day money-back guarantee. If FARE doesn\'t work for your farm for any reason, just email us within 30 days for a full refund.',
+            },
+          },
+        ],
+      },
+    ],
+  }
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-cream-50 to-white">
-      <div className="container mx-auto px-4 py-16">
-        <div className="text-center space-y-8 mb-16">
-          <Badge variant="success" className="text-sm px-4 py-2">
-            Phase 1.2 Complete
-          </Badge>
-          <h1 className="text-6xl font-bold text-primary-600">
-            Welcome to Fare
-          </h1>
-          <p className="text-2xl text-slate-600 max-w-2xl mx-auto">
-            Professional Livestock Management Software
-          </p>
-          <div className="flex gap-4 justify-center">
-            <Button size="lg" className="text-lg">
-              Get Started for $99
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg" asChild>
-              <a href="https://lsk.fare2u.com/" target="_blank" rel="noopener noreferrer">
-                Check Demo
-              </a>
-            </Button>
-          </div>
+    <>
+      {/* Structured Data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      {/* Navigation Header - Phase 3.2 */}
+      <Navigation />
+      
+      <main className="min-h-screen">
+        {/* Hero Section - Phase 3.1 */}
+        <Hero />
+        
+        {/* Social Proof Bar - Phase 3.3 */}
+        <SocialProofBar />
+
+        {/* Problem-Solution Section - Phase 4.1 */}
+        <ProblemSolution />
+
+        {/* Features Grid Section - Phase 4.2 */}
+        <div id="features">
+          <FeaturesGrid />
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          <Card className="hover:shadow-lg transition-shadow">
-            <CardHeader>
-              <CheckCircle2 className="h-8 w-8 text-primary-600 mb-2" />
-              <CardTitle>Components Ready</CardTitle>
-              <CardDescription>
-                All shadcn/ui components installed and configured
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-slate-600">
-                <li>✓ Button with variants</li>
-                <li>✓ Card components</li>
-                <li>✓ Badge with colors</li>
-                <li>✓ Accordion</li>
-                <li>✓ Dialog</li>
-              </ul>
-            </CardContent>
-          </Card>
+        {/* Use Cases Section - Phase 4.3 */}
+        <UseCases />
 
-          <Card className="hover:shadow-lg transition-shadow">
-            <CardHeader>
-              <CheckCircle2 className="h-8 w-8 text-sage-500 mb-2" />
-              <CardTitle>Dependencies</CardTitle>
-              <CardDescription>
-                All required packages successfully installed
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-slate-600">
-                <li>✓ Radix UI Primitives</li>
-                <li>✓ Framer Motion</li>
-                <li>✓ Lucide React Icons</li>
-                <li>✓ Animation Library</li>
-              </ul>
-            </CardContent>
-          </Card>
+        {/* Live Demo Access Section - Phase 5.1 (Updated) */}
+        <DemoAccess />
 
-          <Card className="hover:shadow-lg transition-shadow">
-            <CardHeader>
-              <CheckCircle2 className="h-8 w-8 text-secondary mb-2" />
-              <CardTitle>Next Steps</CardTitle>
-              <CardDescription>
-                Ready for Phase 2 - Design System
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2 text-sm text-slate-600">
-                <li>→ Custom components</li>
-                <li>→ Hero section</li>
-                <li>→ Feature sections</li>
-                <li>→ Animation setup</li>
-              </ul>
-            </CardContent>
-          </Card>
+        {/* Testimonials Section - Phase 5.3 */}
+        <div id="testimonials">
+          <Testimonials />
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="text-slate-500 text-sm">
-            426 packages installed • 0 vulnerabilities • TypeScript configured
-          </p>
+        {/* Trust Badges Section - Phase 5.4 */}
+        <TrustBadges />
+
+        {/* Pricing Section - Phase 6.1 */}
+        <div id="pricing">
+          <Pricing />
         </div>
-      </div>
-    </main>
+
+        {/* FAQ Section - Phase 6.2 */}
+        <FAQ />
+
+        {/* Final CTA Section - Phase 6.3 */}
+        <FinalCTA />
+      </main>
+
+      {/* Footer - Phase 7.1 */}
+      <Footer />
+    </>
   )
 }

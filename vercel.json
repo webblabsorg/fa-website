@@ -1,13 +1,7 @@
 {
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "nextjs",
   "outputDirectory": ".next",
-  "regions": ["iad1"],
-  "git": {
-    "deploymentEnabled": true
-  },
+  "framework": "nextjs",
   "headers": [
     {
       "source": "/(.*)",
@@ -33,23 +27,6 @@
           "value": "camera=(), microphone=(), geolocation=()"
         }
       ]
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/demo",
-      "destination": "https://lsk.fare2u.com/",
-      "permanent": false
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/robots.txt",
-      "destination": "/api/robots"
-    },
-    {
-      "source": "/sitemap.xml",
-      "destination": "/api/sitemap"
     }
   ]
 }

@@ -5,6 +5,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://fare2u.com'),
   title: "Livestock Farm Management Software - $99 One-Time | Fare",
   description: "Professional farm management system for cattle, poultry, pigs, goats. Track livestock, health records, sales, and expenses. One-time payment of $99. Lifetime access with 6 months support.",
   keywords: "livestock management, farm software, cattle tracking, poultry management, farm management system, livestock software, agricultural software",
