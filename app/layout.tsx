@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import Script from "next/script"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -45,6 +46,9 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: "mq0M1cy1yCU9pgg0ZZcCZa3ZEjDgODrlQehNRO94ur4",
+  },
 }
 
 export default function RootLayout({
@@ -54,7 +58,31 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>{children}</body>
+      <head>
+        {/* Microsoft Clarity */}
+        <Script
+          id="microsoft-clarity"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "u1wbcpael0");
+            `,
+          }}
+        />
+      </head>
+      <body className={inter.className}>
+        {children}
+        
+        {/* Tidio Chat Widget */}
+        <Script
+          src="//code.tidio.co/jkzqkrnkd4mtte68a8punq6scpakikuu.js"
+          strategy="lazyOnload"
+        />
+      </body>
     </html>
   )
 }

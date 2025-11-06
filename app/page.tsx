@@ -1,6 +1,7 @@
 'use client'
 
 import { Hero, Navigation, SocialProofBar, ProblemSolution, FeaturesGrid, UseCases, DemoAccess, Testimonials, TrustBadges, Pricing, FAQ, FinalCTA, Footer } from "@/components/sections"
+import { StructuredData } from "@/components/shared/structured-data"
 
 export default function Home() {
   // Structured Data (JSON-LD) for SEO
