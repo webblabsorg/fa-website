@@ -17,15 +17,36 @@ export default function SubmitTicket() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)
 
+  const [error, setError] = useState('')
+  const [ticketNumber, setTicketNumber] = useState('')
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
+    setError('')
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500))
-    
-    setIsSubmitting(false)
-    setSubmitted(true)
+    try {
+      const response = await fetch('/api/submit-ticket', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to submit ticket')
+      }
+
+      setTicketNumber(data.ticketNumber)
+      setSubmitted(true)
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'An error occurred. Please try again.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -62,7 +83,7 @@ export default function SubmitTicket() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <div className="text-sm text-slate-500 mb-1">Ticket Number</div>
-                  <div className="font-mono font-semibold text-slate-900">#TK{Math.floor(Math.random() * 100000)}</div>
+                  <div className="font-mono font-semibold text-slate-900">#{ticketNumber}</div>
                 </div>
                 <div>
                   <div className="text-sm text-slate-500 mb-1">Priority</div>
@@ -137,6 +158,22 @@ export default function SubmitTicket() {
           </div>
 
           <form onSubmit={handleSubmit} className="bg-white border border-slate-200 rounded-lg p-8">
+            {/* Error Message */}
+            {error && (
+              <div className="mb-6 bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <svg className="h-5 w-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div className="ml-3">
+                    <p className="text-sm text-red-700">{error}</p>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Name */}
             <div className="mb-6">
               <label htmlFor="name" className="block text-sm font-semibold text-slate-900 mb-2">
