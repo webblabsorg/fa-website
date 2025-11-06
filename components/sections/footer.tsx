@@ -51,8 +51,8 @@ export function Footer() {
               </p>
             </div>
 
-            {/* Social Media Icons */}
-            <div className="flex items-center gap-3">
+            {/* Social Media Icons - Commented out for future use */}
+            {/* <div className="flex items-center gap-3">
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
@@ -65,7 +65,7 @@ export function Footer() {
                   <social.icon className="w-5 h-5 text-slate-400 group-hover:text-white transition-colors" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Column 2: Product */}

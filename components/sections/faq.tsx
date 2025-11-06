@@ -45,7 +45,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: 'What languages are available?',
-    answer: 'Fare2u is currently available in English, Spanish, French, Portuguese, and Swahili. We\'re actively adding more languages based on user requests. The interface is fully translatable, and we welcome community translations.',
+    answer: 'Fare2u is currently available in English, Spanish, French, Portuguese, and Arabic. We\'re actively adding more languages based on user requests. The interface is fully translatable, and we welcome community translations.',
   },
 ]
 
