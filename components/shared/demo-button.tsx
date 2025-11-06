@@ -29,7 +29,7 @@ export function DemoButton({ size = 'default', className = '' }: DemoButtonProps
         className={className}
         onClick={handleDemoClick}
       >
-        Check Demo
+        Live Demo
       </Button>
 
       {/* Modal */}

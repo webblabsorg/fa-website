@@ -167,18 +167,12 @@ export function Footer() {
               </li>
               <li className="text-sm">
                 <p className="text-slate-400 leading-relaxed">
-                  635 W 42nd St,<br />
-                  New York, NY 10036,<br />
+                  One Liberty Plaza<br />
+                  165 Broadway, Lower Manhattan,<br />
+                  23rd Floor,<br />
+                  New York City, NY, 10006,<br />
                   USA
                 </p>
-              </li>
-              <li className="text-sm">
-                <a
-                  href="tel:+16466938098"
-                  className="hover:text-green-400 transition-colors duration-200"
-                >
-                  +1 (646) 693-8098
-                </a>
               </li>
               <li className="text-sm">
                 <p className="font-medium text-slate-300 mb-1">Support Hours</p>

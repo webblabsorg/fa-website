@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { Plus, Minus } from 'lucide-react'
 import { fadeInUp, staggerContainer } from '@/lib/animations'
 import { useState } from 'react'
+import { ContactModal } from '@/components/shared/contact-modal'
 
 interface FAQItem {
   question: string
@@ -51,6 +52,7 @@ const faqs: FAQItem[] = [
 
 export function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false)
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index)
@@ -106,15 +108,21 @@ export function FAQ() {
             <p className="text-slate-600 mb-6">
               Our support team is here to help. Get in touch and we&apos;ll respond within 24 hours.
             </p>
-            <a
-              href="mailto:support@Fare2U.com"
+            <button
+              onClick={() => setIsContactModalOpen(true)}
               className="inline-flex items-center justify-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg font-semibold transition-colors duration-300"
             >
               Contact Support
-            </a>
+            </button>
           </motion.div>
         </motion.div>
       </div>
+
+      {/* Contact Modal */}
+      <ContactModal 
+        isOpen={isContactModalOpen} 
+        onClose={() => setIsContactModalOpen(false)} 
+      />
     </section>
   )
 }

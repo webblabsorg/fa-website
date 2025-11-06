@@ -46,7 +46,7 @@ export function Logo({
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-green-700">
           Fare
         </span>
-        <span className="text-slate-800">2u</span>
+        <span className="text-slate-800">2U</span>
       </div>
     </div>
   )
@@ -80,7 +80,7 @@ export function LogoText({ className, size = 'md' }: { className?: string, size?
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-green-700">
         Fare
       </span>
-      <span className="text-slate-800">2u</span>
+      <span className="text-slate-800">2U</span>
     </div>
   )
 }
