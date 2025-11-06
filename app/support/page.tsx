@@ -16,7 +16,7 @@ export default function SupportPortal() {
             ← Back to Home
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Support Portal</h1>
-          <p className="text-slate-300">We're here to help you get the most out of Fare2u</p>
+          <p className="text-slate-300">We&apos;re here to help you get the most out of Fare2u</p>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ export default function SupportPortal() {
                 Email Support
               </h3>
               <p className="text-slate-600 mb-4">
-                Prefer email? Send us a message at sales@fare2u.com and we'll respond within 24-48 hours.
+                Prefer email? Send us a message at sales@fare2u.com and we&apos;ll respond within 24-48 hours.
               </p>
               <div className="text-green-600 font-semibold group-hover:translate-x-2 transition-transform inline-block">
                 Send Email →

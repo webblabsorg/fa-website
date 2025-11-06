@@ -56,7 +56,7 @@ export default function SubmitTicket() {
             </div>
             <h2 className="text-3xl font-bold text-slate-900 mb-4">Ticket Submitted Successfully!</h2>
             <p className="text-slate-600 mb-8 text-lg">
-              Thank you for contacting us. We've received your support ticket and will respond within 24-48 hours.
+              Thank you for contacting us. We&apos;ve received your support ticket and will respond within 24-48 hours.
             </p>
             <div className="bg-white border border-slate-200 rounded-lg p-6 mb-8 text-left">
               <div className="grid grid-cols-2 gap-4">
@@ -117,7 +117,7 @@ export default function SubmitTicket() {
             ← Back to Support Portal
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Submit a Support Ticket</h1>
-          <p className="text-slate-300">Fill out the form below and we'll get back to you within 24-48 hours</p>
+          <p className="text-slate-300">Fill out the form below and we&apos;ll get back to you within 24-48 hours</p>
         </div>
       </div>
 
@@ -169,7 +169,7 @@ export default function SubmitTicket() {
                 className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 outline-none transition-all"
                 placeholder="john@example.com"
               />
-              <p className="text-xs text-slate-500 mt-1">We'll send ticket updates to this email</p>
+              <p className="text-xs text-slate-500 mt-1">We&apos;ll send ticket updates to this email</p>
             </div>
 
             {/* License Key */}
