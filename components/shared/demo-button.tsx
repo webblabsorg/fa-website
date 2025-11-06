@@ -7,10 +7,9 @@ import { Button } from '@/components/ui/button'
 interface DemoButtonProps {
   size?: 'sm' | 'default' | 'lg'
   className?: string
-  variant?: 'primary' | 'secondary'
 }
 
-export function DemoButton({ size = 'default', className = '', variant = 'primary' }: DemoButtonProps) {
+export function DemoButton({ size = 'default', className = '' }: DemoButtonProps) {
   const [showModal, setShowModal] = useState(false)
 
   const handleDemoClick = (e: React.MouseEvent) => {
