@@ -1,9 +1,11 @@
 'use client'
 
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Beef, Egg, Home, ArrowRight } from 'lucide-react'
 import { fadeInUp, staggerContainer } from '@/lib/animations'
 import { Button } from '@/components/ui/button'
+import { FarmPotentialCalculator } from '@/components/shared/farm-potential-calculator'
 
 interface UseCase {
   icon: React.ElementType
@@ -57,6 +59,8 @@ const useCases: UseCase[] = [
 ]
 
 export function UseCases() {
+  const [isCalculatorOpen, setIsCalculatorOpen] = useState(false)
+
   return (
     <section className="py-20 md:py-32 bg-slate-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -111,6 +115,7 @@ export function UseCases() {
         >
           <Button
             size="lg"
+            onClick={() => setIsCalculatorOpen(true)}
             className="group bg-sage-500 hover:bg-sage-600 text-white px-8 py-6 text-lg"
           >
             See Your Farm&apos;s Potential
@@ -118,6 +123,12 @@ export function UseCases() {
           </Button>
         </motion.div>
       </div>
+
+      {/* Farm Potential Calculator Modal */}
+      <FarmPotentialCalculator 
+        isOpen={isCalculatorOpen} 
+        onClose={() => setIsCalculatorOpen(false)} 
+      />
     </section>
   )
 }
