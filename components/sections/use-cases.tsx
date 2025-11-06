@@ -138,11 +138,13 @@ function UseCaseCard({ useCase }: UseCaseCardProps) {
       }}
       className="group relative overflow-hidden rounded-2xl shadow-2xl bg-slate-800"
     >
-      {/* Background Image Placeholder */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-700 to-slate-800">
-        <div className="absolute inset-0 flex items-center justify-center opacity-20">
-          <Icon className="w-32 h-32 text-white" />
-        </div>
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img
+          src={`/images/${useCase.imagePlaceholder.replace('/', '')}`}
+          alt={`${useCase.title} - farming operation`}
+          className="w-full h-full object-cover"
+        />
       </div>
 
       {/* Gradient Overlay */}
@@ -175,11 +177,7 @@ function UseCaseCard({ useCase }: UseCaseCardProps) {
           </ul>
         </div>
 
-        <div className="mt-6 pt-6 border-t border-white/20">
-          <p className="text-white/60 text-sm">
-            Image: {useCase.imagePlaceholder}
-          </p>
-        </div>
+
       </div>
     </motion.div>
   )
