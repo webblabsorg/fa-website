@@ -10,9 +10,9 @@ import { cn } from '@/lib/utils'
 const navLinks = [
   { href: '#features', label: 'Features' },
   { href: '#pricing', label: 'Pricing' },
-  { href: '#testimonials', label: 'Testimonials' },
-  { href: '#faq', label: 'FAQ' },
-  { href: '#contact', label: 'Contact' },
+  { href: '/documentation', label: 'Documentation', external: true },
+  { href: '/help', label: 'Help', external: true },
+  { href: '/support', label: 'Support', external: true },
 ]
 
 export function Navigation() {
@@ -28,7 +28,11 @@ export function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const scrollToSection = (href: string) => {
+  const scrollToSection = (href: string, external?: boolean) => {
+    if (external) {
+      window.location.href = href
+      return
+    }
     const element = document.querySelector(href)
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -73,7 +77,7 @@ export function Navigation() {
                   href={link.href}
                   onClick={(e) => {
                     e.preventDefault()
-                    scrollToSection(link.href)
+                    scrollToSection(link.href, link.external)
                   }}
                   className={cn(
                     'text-sm font-medium transition-colors duration-300 hover:text-sage-500',
@@ -149,7 +153,7 @@ export function Navigation() {
                       href={link.href}
                       onClick={(e) => {
                         e.preventDefault()
-                        scrollToSection(link.href)
+                        scrollToSection(link.href, link.external)
                       }}
                       className="text-lg font-medium text-slate-700 hover:text-sage-600 transition-colors py-2"
                       initial={{ opacity: 0, x: 20 }}
