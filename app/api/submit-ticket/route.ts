@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { Resend } from 'resend'
+
+const resend = new Resend(process.env.RESEND_API_KEY)
 
 export async function POST(request: NextRequest) {
   try {
@@ -25,9 +28,7 @@ export async function POST(request: NextRequest) {
     // Generate ticket number
     const ticketNumber = `TK${Date.now().toString().slice(-6)}`
 
-    // Prepare email content (ready for email service integration)
-    // Uncomment and configure your email service in EMAIL_SETUP.md
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    // Prepare email content for support team
     const emailContent = {
       to: 'support@fare2u.com',
       from: 'noreply@fare2u.com',
@@ -224,12 +225,25 @@ support@fare2u.com
       `,
     }
 
-    console.log(`✅ Confirmation email queued for: ${email}`)
-    console.log('Note: Configure email service to actually send emails')
-    
-    // Prevent unused variable warnings (remove these lines when email service is configured)
-    void emailContent
-    void confirmationEmail
+    // Send support team notification email
+    await resend.emails.send({
+      from: 'Fare2u Support <support@fare2u.com>',
+      to: 'support@fare2u.com',
+      subject: emailContent.subject,
+      html: emailContent.html,
+    })
+
+    // Send customer confirmation email
+    await resend.emails.send({
+      from: 'Fare2u Support <support@fare2u.com>',
+      to: email,
+      subject: confirmationEmail.subject,
+      html: confirmationEmail.html,
+    })
+
+    console.log(`✅ Ticket #${ticketNumber} submitted successfully`)
+    console.log(`📧 Support notification sent to support@fare2u.com`)
+    console.log(`📧 Confirmation email sent to ${email}`)
 
     // Return success response
     return NextResponse.json(
