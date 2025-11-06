@@ -11,7 +11,7 @@ const features = [
   'All Features Included',
   'Unlimited Livestock & Sheds',
   '6 Months Premium Support',
-  'Free Updates for 1 Year',
+  'Lifetime Updates Included',
   'Multi-Language Support',
   'Full Documentation & Training',
   'Mobile & Desktop Access',
