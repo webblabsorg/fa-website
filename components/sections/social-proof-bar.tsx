@@ -12,8 +12,8 @@ interface Stat {
 
 const stats: Stat[] = [
   { value: 11280, label: 'Farms across 45+ countries', suffix: '+' },
-  { value: 212900, label: 'Animals Tracked', suffix: '+' },
-  { value: 153300, label: 'Health Records', suffix: '+' },
+  { value: 12900000, label: 'Animals Tracked', suffix: '+' },
+  { value: 1530000, label: 'Health Records', suffix: '+' },
   { value: 272, label: 'Revenue Managed', prefix: '$', suffix: 'M+' },
 ]
 
