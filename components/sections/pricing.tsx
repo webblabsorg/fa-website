@@ -223,7 +223,7 @@ export function Pricing() {
             className="text-center mt-12"
           >
             <p className="text-slate-600">
-              <span className="font-bold text-green-600">11,280+</span> farmers have already transformed their operations with Fare2u
+              <span className="font-bold text-green-600">11,280+</span> farmers have already transformed their operations with Fare2U
             </p>
           </motion.div>
         </motion.div>

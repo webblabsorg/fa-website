@@ -30,8 +30,8 @@ export async function POST(request: NextRequest) {
 
     // Prepare email content for support team
     const emailContent = {
-      to: 'support@fare2u.com',
-      from: 'noreply@fare2u.com',
+      to: 'support@Fare2U.com',
+      from: 'noreply@Fare2U.com',
       subject: `[${priority.toUpperCase()}] New Support Ticket #${ticketNumber}: ${subject}`,
       html: `
         <!DOCTYPE html>
@@ -89,7 +89,7 @@ export async function POST(request: NextRequest) {
                 </div>
               </div>
               <div class="footer">
-                <p>Fare2u Support System | support@fare2u.com</p>
+                <p>Fare2U Support System | support@Fare2U.com</p>
                 <p>Reply to this email to respond to the customer</p>
               </div>
             </div>
@@ -113,8 +113,8 @@ ${description}
 Submitted: ${new Date().toLocaleString()}
 
 ---
-Fare2u Support System
-support@fare2u.com
+Fare2U Support System
+support@Fare2U.com
       `.trim(),
     }
 
@@ -165,8 +165,8 @@ support@fare2u.com
     // Also send confirmation email to customer
     const confirmationEmail = {
       to: email,
-      from: 'support@fare2u.com',
-      subject: `Ticket #${ticketNumber} Received - Fare2u Support`,
+      from: 'support@Fare2U.com',
+      subject: `Ticket #${ticketNumber} Received - Fare2U Support`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -189,7 +189,7 @@ support@fare2u.com
               </div>
               <div class="content">
                 <p>Hi ${name},</p>
-                <p>Thank you for contacting Fare2u support! We've received your ticket and our team will get back to you within 24-48 hours.</p>
+                <p>Thank you for contacting Fare2U support! We've received your ticket and our team will get back to you within 24-48 hours.</p>
                 
                 <div class="ticket-box">
                   <h2 style="margin: 0 0 15px 0; color: #16a34a;">Ticket #${ticketNumber}</h2>
@@ -207,16 +207,16 @@ support@fare2u.com
 
                 <p>In the meantime, you might find these resources helpful:</p>
                 <ul>
-                  <li><a href="https://fare2u.com/documentation">Documentation</a> - Complete user guide</li>
-                  <li><a href="https://fare2u.com/help">Help Center</a> - Browse FAQs</li>
-                  <li><a href="https://lsk.fare2u.com/auth/login">Live Demo</a> - Try Fare2u</li>
+                  <li><a href="https://Fare2U.com/documentation">Documentation</a> - Complete user guide</li>
+                  <li><a href="https://Fare2U.com/help">Help Center</a> - Browse FAQs</li>
+                  <li><a href="https://lsk.Fare2U.com/auth/login">Live Demo</a> - Try Fare2U</li>
                 </ul>
 
-                <p>Best regards,<br><strong>Fare2u Support Team</strong></p>
+                <p>Best regards,<br><strong>Fare2U Support Team</strong></p>
               </div>
               <div class="footer">
-                <p><strong>Fare2u - Livestock Management Made Simple</strong></p>
-                <p>support@fare2u.com | https://fare2u.com</p>
+                <p><strong>Fare2U - Livestock Management Made Simple</strong></p>
+                <p>support@Fare2U.com | https://Fare2U.com</p>
                 <p>Please do not reply to this email directly. Reply to your ticket confirmation instead.</p>
               </div>
             </div>
@@ -227,22 +227,22 @@ support@fare2u.com
 
     // Send support team notification email
     await resend.emails.send({
-      from: 'Fare2u Support <support@fare2u.com>',
-      to: 'support@fare2u.com',
+      from: 'Fare2U Support <support@Fare2U.com>',
+      to: 'support@Fare2U.com',
       subject: emailContent.subject,
       html: emailContent.html,
     })
 
     // Send customer confirmation email
     await resend.emails.send({
-      from: 'Fare2u Support <support@fare2u.com>',
+      from: 'Fare2U Support <support@Fare2U.com>',
       to: email,
       subject: confirmationEmail.subject,
       html: confirmationEmail.html,
     })
 
     console.log(`✅ Ticket #${ticketNumber} submitted successfully`)
-    console.log(`📧 Support notification sent to support@fare2u.com`)
+    console.log(`📧 Support notification sent to support@Fare2U.com`)
     console.log(`📧 Confirmation email sent to ${email}`)
 
     // Return success response

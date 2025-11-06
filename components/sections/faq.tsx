@@ -13,7 +13,7 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     question: 'Is this really a one-time payment?',
-    answer: 'Yes! You pay $99 once and own Fare2u forever. No monthly fees, no recurring charges, no hidden costs. You get lifetime access to the software and all its features.',
+    answer: 'Yes! You pay $99 once and own Fare2U forever. No monthly fees, no recurring charges, no hidden costs. You get lifetime access to the software and all its features.',
   },
   {
     question: 'What happens after 6 months of support?',
@@ -21,19 +21,19 @@ const faqs: FAQItem[] = [
   },
   {
     question: 'Where is the software installed?',
-    answer: 'Fare2u is a web-based application installed on your own domain and hosting. You need a domain name and hosting provider. We offer optional VPS hosting for $7/month, or you can use your own hosting. We provide free installation assistance.',
+    answer: 'Fare2U is a web-based application installed on your own domain and hosting. You need a domain name and hosting provider. We offer optional VPS hosting for $7/month, or you can use your own hosting. We provide free installation assistance.',
   },
   {
     question: 'Is it suitable for small farms?',
-    answer: 'Absolutely! Fare2u scales from 10 animals to 10,000+. Whether you\'re a hobby farmer with a few chickens or managing a large commercial operation, Fare2u adapts to your needs. Start small and grow without limitations.',
+    answer: 'Absolutely! Fare2U scales from 10 animals to 10,000+. Whether you\'re a hobby farmer with a few chickens or managing a large commercial operation, Fare2U adapts to your needs. Start small and grow without limitations.',
   },
   {
     question: 'What types of livestock are supported?',
-    answer: 'Fare2u supports all common livestock: cattle, sheep, goats, pigs, chickens, ducks, horses, rabbits, and more. You can also add custom animal types. The system is flexible and adapts to any farming operation.',
+    answer: 'Fare2U supports all common livestock: cattle, sheep, goats, pigs, chickens, ducks, horses, rabbits, and more. You can also add custom animal types. The system is flexible and adapts to any farming operation.',
   },
   {
     question: 'Do I need hosting?',
-    answer: 'Yes, Fare2u runs on your own domain and hosting. We provide VPS hosting for just $7/month (optional), or you can use your existing hosting provider. Free installation service is included with every purchase.',
+    answer: 'Yes, Fare2U runs on your own domain and hosting. We provide VPS hosting for just $7/month (optional), or you can use your existing hosting provider. Free installation service is included with every purchase.',
   },
   {
     question: 'Is my data secure?',
@@ -41,11 +41,11 @@ const faqs: FAQItem[] = [
   },
   {
     question: 'Do you offer refunds?',
-    answer: 'Yes! We offer a no-questions-asked 30-day money-back guarantee. If Fare2u doesn\'t work for your farm for any reason, just email us within 30 days for a full refund. We want you to be 100% satisfied.',
+    answer: 'Yes! We offer a no-questions-asked 30-day money-back guarantee. If Fare2U doesn\'t work for your farm for any reason, just email us within 30 days for a full refund. We want you to be 100% satisfied.',
   },
   {
     question: 'What languages are available?',
-    answer: 'Fare2u is currently available in English, Spanish, French, Portuguese, and Arabic. We\'re actively adding more languages based on user requests. The interface is fully translatable, and we welcome community translations.',
+    answer: 'Fare2U is currently available in English, Spanish, French, Portuguese, and Arabic. We\'re actively adding more languages based on user requests. The interface is fully translatable, and we welcome community translations.',
   },
 ]
 
@@ -77,7 +77,7 @@ export function FAQ() {
               </span>
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Everything you need to know about Fare2u. Still have questions? 
+              Everything you need to know about Fare2U. Still have questions? 
               Contact our support team anytime.
             </p>
           </motion.div>
@@ -107,7 +107,7 @@ export function FAQ() {
               Our support team is here to help. Get in touch and we&apos;ll respond within 24 hours.
             </p>
             <a
-              href="mailto:support@fare2u.com"
+              href="mailto:support@Fare2U.com"
               className="inline-flex items-center justify-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg font-semibold transition-colors duration-300"
             >
               Contact Support

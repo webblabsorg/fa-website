@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
       customer_email: undefined, // Optional: pre-fill if you have user data
       allow_promotion_codes: true,
       metadata: {
-        product: 'Fare2u Lifetime License',
+        product: 'Fare2U Lifetime License',
       },
     })
 

@@ -18,7 +18,7 @@ export function DemoButton({ size = 'default', className = '' }: DemoButtonProps
   }
 
   const handleOpenDemo = () => {
-    window.open('https://lsk.fare2u.com/auth/login', '_blank')
+    window.open('https://lsk.Fare2U.com/auth/login', '_blank')
     setShowModal(false)
   }
 
@@ -53,7 +53,7 @@ export function DemoButton({ size = 'default', className = '' }: DemoButtonProps
                 Demo Login Details
               </h3>
               <p className="text-slate-600 text-sm">
-                Use these credentials to explore Fare2u
+                Use these credentials to explore Fare2U
               </p>
             </div>
 

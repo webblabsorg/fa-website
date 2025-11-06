@@ -5,32 +5,32 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://fare2u.com'),
-  title: "Livestock Farm Management Software - $99 One-Time | Fare2u",
+  metadataBase: new URL('https://Fare2U.com'),
+  title: "Livestock Farm Management Software - $99 One-Time | Fare2U",
   description: "Professional farm management system for cattle, poultry, pigs, goats. Track livestock, health records, sales, and expenses. One-time payment of $99. Lifetime access with 6 months support.",
   keywords: "livestock management, farm software, cattle tracking, poultry management, farm management system, livestock software, agricultural software",
   authors: [{ name: "WUsoft" }],
   creator: "WUsoft",
-  publisher: "Fare2u",
+  publisher: "Fare2U",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://fare2u.com",
-    title: "Fare2u - Livestock Farm Management Software",
+    url: "https://Fare2U.com",
+    title: "Fare2U - Livestock Farm Management Software",
     description: "Manage your entire farm from one dashboard. Track livestock, health, sales, expenses. $99 one-time payment for lifetime access.",
-    siteName: "Fare2u",
+    siteName: "Fare2U",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Fare2u Livestock Management Software",
+        alt: "Fare2U Livestock Management Software",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fare2u - Livestock Farm Management Software",
+    title: "Fare2U - Livestock Farm Management Software",
     description: "Track livestock, health, sales, expenses. $99 lifetime access. Professional farm management made simple.",
     images: ["/og-image.jpg"],
   },

@@ -27,7 +27,7 @@ export function DemoAccess() {
               Try It Yourself
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Experience Fare2u Live
+              Experience Fare2U Live
             </h2>
             <p className="text-xl text-green-100 max-w-2xl mx-auto">
               No signup required. Jump straight into a fully-functional demo 
@@ -51,12 +51,12 @@ export function DemoAccess() {
                 </div>
                 <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                   <a
-                    href="https://lsk.fare2u.com/auth/login"
+                    href="https://lsk.Fare2U.com/auth/login"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-green-600 hover:text-green-700 font-mono text-sm md:text-base break-all underline"
                   >
-                    https://lsk.fare2u.com/auth/login
+                    https://lsk.Fare2U.com/auth/login
                   </a>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export function DemoAccess() {
                   className="group bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg w-full sm:w-auto"
                 >
                   <a
-                    href="https://lsk.fare2u.com/auth/login"
+                    href="https://lsk.Fare2U.com/auth/login"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

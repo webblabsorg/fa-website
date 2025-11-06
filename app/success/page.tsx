@@ -4,8 +4,8 @@ import { CheckCircle, Download, Mail, Headphones, ArrowRight } from 'lucide-reac
 import { Button } from '@/components/ui/button'
 
 export const metadata: Metadata = {
-  title: 'Order Confirmed - Thank You! | Fare2u',
-  description: 'Your Fare2u license has been purchased successfully',
+  title: 'Order Confirmed - Thank You! | Fare2U',
+  description: 'Your Fare2U license has been purchased successfully',
   robots: {
     index: false,
     follow: false,
@@ -34,7 +34,7 @@ export default function SuccessPage({
           Payment Successful! 🎉
         </h1>
         <p className="text-xl text-slate-600 mb-8">
-          Welcome to Fare2u! Your lifetime license is ready.
+          Welcome to Fare2U! Your lifetime license is ready.
         </p>
 
         {/* Order Details */}
@@ -62,12 +62,12 @@ export default function SuccessPage({
                 <Download className="w-6 h-6 text-green-600" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 mb-1">2. Download Fare2u</h3>
+                <h3 className="font-bold text-slate-900 mb-1">2. Download Fare2U</h3>
                 <p className="text-slate-600 mb-3">
                   Use the download link in your email to get the installation package. You&apos;ll need a domain name and hosting (we offer VPS hosting for $7/month).
                 </p>
                 <Button asChild variant="outline" size="sm">
-                  <a href="https://lsk.fare2u.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://lsk.Fare2U.com" target="_blank" rel="noopener noreferrer">
                     Download Now
                     <Download className="ml-2 w-4 h-4" />
                   </a>
@@ -83,7 +83,7 @@ export default function SuccessPage({
               <div>
                 <h3 className="font-bold text-slate-900 mb-1">3. Activate Your License</h3>
                 <p className="text-slate-600">
-                  Upload Fare2u to your hosting and enter your license key (from the email) to activate. Free installation service available - just contact us!
+                  Upload Fare2U to your hosting and enter your license key (from the email) to activate. Free installation service available - just contact us!
                 </p>
               </div>
             </div>
@@ -102,10 +102,10 @@ export default function SuccessPage({
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:sales@fare2u.com"
+              href="mailto:sales@Fare2U.com"
               className="text-green-600 hover:text-green-700 font-medium"
             >
-              sales@fare2u.com
+              sales@Fare2U.com
             </a>
             <span className="hidden sm:block text-slate-400">•</span>
             <a
@@ -136,7 +136,7 @@ export default function SuccessPage({
 
         {/* Trust Message */}
         <p className="text-slate-500 text-sm mt-8">
-          Thank you for choosing Fare2u! We&apos;re excited to help you manage your farm better.
+          Thank you for choosing Fare2U! We&apos;re excited to help you manage your farm better.
         </p>
       </div>
     </div>

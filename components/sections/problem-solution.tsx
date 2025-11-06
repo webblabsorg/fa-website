@@ -99,7 +99,7 @@ export function ProblemSolution() {
                 </span>
               </h2>
               <p className="text-xl text-slate-600 mb-8">
-                Fare2u puts everything you need in one place. Make better decisions, 
+                Fare2U puts everything you need in one place. Make better decisions, 
                 save time, and never miss an important task again.
               </p>
               

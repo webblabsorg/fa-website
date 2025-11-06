@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Fare2u',
-  description: 'Terms of Service for Fare2u - Livestock Farm Management Software',
+  title: 'Terms of Service | Fare2U',
+  description: 'Terms of Service for Fare2U - Livestock Farm Management Software',
 }
 
 export default function TermsOfService() {
@@ -26,7 +26,7 @@ export default function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">1. Agreement to Terms</h2>
             <p className="text-slate-600 leading-relaxed">
-              By purchasing and using Fare2u (Farm Animal Record & Expense tracking), you agree to be bound by these Terms of Service. If you do not agree to these terms, do not purchase or use the software.
+              By purchasing and using Fare2U (Farm Animal Record & Expense tracking), you agree to be bound by these Terms of Service. If you do not agree to these terms, do not purchase or use the software.
             </p>
           </section>
 
@@ -35,7 +35,7 @@ export default function TermsOfService() {
             
             <h3 className="text-xl font-semibold text-slate-900 mb-3">2.1 License Type</h3>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Upon payment of the one-time license fee ($99), you are granted a non-exclusive, non-transferable, lifetime license to use Fare2u software.
+              Upon payment of the one-time license fee ($99), you are granted a non-exclusive, non-transferable, lifetime license to use Fare2U software.
             </p>
 
             <h3 className="text-xl font-semibold text-slate-900 mb-3">2.2 Permitted Use</h3>
@@ -43,7 +43,7 @@ export default function TermsOfService() {
               You may:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2 mb-4">
-              <li>Install Fare2u on your domain and hosting (one installation per license)</li>
+              <li>Install Fare2U on your domain and hosting (one installation per license)</li>
               <li>Use the software for managing your livestock operations</li>
               <li>Create backups of your data</li>
               <li>Receive free updates for 1 year from purchase date</li>
@@ -67,7 +67,7 @@ export default function TermsOfService() {
             
             <h3 className="text-xl font-semibold text-slate-900 mb-3">3.1 One-Time Payment</h3>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Fare2u is sold for a one-time payment of $99 USD. This grants you lifetime access to the software with no recurring fees or subscriptions.
+              Fare2U is sold for a one-time payment of $99 USD. This grants you lifetime access to the software with no recurring fees or subscriptions.
             </p>
 
             <h3 className="text-xl font-semibold text-slate-900 mb-3">3.2 Payment Processing</h3>
@@ -84,7 +84,7 @@ export default function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">4. Refund Policy</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              We offer a 30-day money-back guarantee. If you are not satisfied with Fare2u for any reason, request a refund within 30 days of purchase for a full refund. See our{' '}
+              We offer a 30-day money-back guarantee. If you are not satisfied with Fare2U for any reason, request a refund within 30 days of purchase for a full refund. See our{' '}
               <Link href="/refund" className="text-green-600 hover:text-green-700">
                 Refund Policy
               </Link>
@@ -114,7 +114,7 @@ export default function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">6. Data and Backups</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Fare2u stores all your data on your own hosting/server. You are solely responsible for:
+              Fare2U stores all your data on your own hosting/server. You are solely responsible for:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>Creating regular backups of your data</li>
@@ -129,7 +129,7 @@ export default function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">7. Disclaimer of Warranties</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Fare2u is provided &quot;as is&quot; without warranty of any kind, express or implied. We do not guarantee that:
+              Fare2U is provided &quot;as is&quot; without warranty of any kind, express or implied. We do not guarantee that:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>The software will be error-free or uninterrupted</li>
@@ -157,7 +157,7 @@ export default function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">9. User Responsibilities</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              As a user of Fare2u, you are responsible for:
+              As a user of Fare2U, you are responsible for:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>Ensuring data entered is accurate</li>
@@ -178,8 +178,8 @@ export default function TermsOfService() {
             <h2 className="text-2xl font-bold text-slate-900 mb-4">11. Dispute Resolution</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
               If you have a dispute with us, please contact us first at{' '}
-              <a href="mailto:sales@fare2u.com" className="text-green-600 hover:text-green-700">
-                sales@fare2u.com
+              <a href="mailto:sales@Fare2U.com" className="text-green-600 hover:text-green-700">
+                sales@Fare2U.com
               </a>
               {' '}to resolve it informally.
             </p>
@@ -200,8 +200,8 @@ export default function TermsOfService() {
             <div className="bg-slate-50 rounded-lg p-6 border border-slate-200">
               <p className="text-slate-700 mb-4">
                 <strong>Email:</strong>{' '}
-                <a href="mailto:sales@fare2u.com" className="text-green-600 hover:text-green-700">
-                  sales@fare2u.com
+                <a href="mailto:sales@Fare2U.com" className="text-green-600 hover:text-green-700">
+                  sales@Fare2U.com
                 </a>
               </p>
               <p className="text-slate-700 mb-4">
@@ -224,7 +224,7 @@ export default function TermsOfService() {
 
           <section className="mb-8">
             <p className="text-slate-600 leading-relaxed italic">
-              By using Fare2u, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
+              By using Fare2U, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
             </p>
           </section>
         </div>

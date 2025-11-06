@@ -22,18 +22,18 @@ export default function HelpCenter() {
   const faqs = [
     {
       category: 'getting-started',
-      question: 'How do I start using Fare2u after purchase?',
-      answer: 'After purchasing, you will receive a license key and download link. Install Fare2u on your web hosting, configure the database, and login with the default credentials (admin@example.com / 12345). Change your password immediately after first login.'
+      question: 'How do I start using Fare2U after purchase?',
+      answer: 'After purchasing, you will receive a license key and download link. Install Fare2U on your web hosting, configure the database, and login with the default credentials (admin@example.com / 12345). Change your password immediately after first login.'
     },
     {
       category: 'getting-started',
       question: 'What are the system requirements?',
-      answer: 'Fare2u requires: PHP 7.x or higher, MySQL 5.x database, Apache/Nginx web server, and at least 50MB of disk space. Any modern web hosting package should work.'
+      answer: 'Fare2U requires: PHP 7.x or higher, MySQL 5.x database, Apache/Nginx web server, and at least 50MB of disk space. Any modern web hosting package should work.'
     },
     {
       category: 'getting-started',
       question: 'Can I change the language?',
-      answer: 'Yes! Go to Settings → Language Setup and select your preferred language. Fare2u supports multiple languages including English, Spanish, French, Portuguese, and more.'
+      answer: 'Yes! Go to Settings → Language Setup and select your preferred language. Fare2U supports multiple languages including English, Spanish, French, Portuguese, and more.'
     },
     {
       category: 'livestock',
@@ -43,7 +43,7 @@ export default function HelpCenter() {
     {
       category: 'livestock',
       question: 'Can I track individual animals?',
-      answer: 'Fare2u tracks animals by batch rather than individually. Each shed assignment creates a unique batch, and all activities (feeding, vaccination, sales) are tracked per batch.'
+      answer: 'Fare2U tracks animals by batch rather than individually. Each shed assignment creates a unique batch, and all activities (feeding, vaccination, sales) are tracked per batch.'
     },
     {
       category: 'livestock',
@@ -78,7 +78,7 @@ export default function HelpCenter() {
     {
       category: 'vaccination',
       question: 'How do I track vaccine expiration?',
-      answer: 'Currently, Fare2u tracks vaccine stock levels but not expiration dates. We recommend using the "Wasted Vaccine" feature to remove expired stock and maintaining a separate expiration tracking log.'
+      answer: 'Currently, Fare2U tracks vaccine stock levels but not expiration dates. We recommend using the "Wasted Vaccine" feature to remove expired stock and maintaining a separate expiration tracking log.'
     },
     {
       category: 'feed',
@@ -108,12 +108,12 @@ export default function HelpCenter() {
     {
       category: 'sales',
       question: 'Can I issue refunds for sales?',
-      answer: 'Fare2u doesn\'t have a built-in refund feature. To handle returns, you can create a negative payment entry or delete the sale invoice if no other activities depend on it.'
+      answer: 'Fare2U doesn\'t have a built-in refund feature. To handle returns, you can create a negative payment entry or delete the sale invoice if no other activities depend on it.'
     },
     {
       category: 'reports',
       question: 'What reports are available?',
-      answer: 'Fare2u includes comprehensive reports: Livestock inventory, Purchase history, Sales records, Vaccination compliance, Feed consumption, Production output, Financial statements, Batch analysis, Shed performance, and Supplier/Client ledgers.'
+      answer: 'Fare2U includes comprehensive reports: Livestock inventory, Purchase history, Sales records, Vaccination compliance, Feed consumption, Production output, Financial statements, Batch analysis, Shed performance, and Supplier/Client ledgers.'
     },
     {
       category: 'reports',
@@ -128,7 +128,7 @@ export default function HelpCenter() {
     {
       category: 'troubleshooting',
       question: 'I forgot my password. How do I reset it?',
-      answer: 'Contact our support team at sales@fare2u.com with your license key and farm details. We\'ll help you reset your password securely.'
+      answer: 'Contact our support team at sales@Fare2U.com with your license key and farm details. We\'ll help you reset your password securely.'
     },
     {
       category: 'troubleshooting',
@@ -164,7 +164,7 @@ export default function HelpCenter() {
             ← Back to Home
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Help Center</h1>
-          <p className="text-slate-300 mb-8">Find answers to common questions about Fare2u</p>
+          <p className="text-slate-300 mb-8">Find answers to common questions about Fare2U</p>
           
           {/* Search Bar */}
           <div className="max-w-2xl">
@@ -264,7 +264,7 @@ export default function HelpCenter() {
           >
             <div className="text-3xl mb-3">📝</div>
             <h3 className="text-lg font-semibold text-slate-900 mb-2">Changelog</h3>
-            <p className="text-slate-600 text-sm">See what&apos;s new in Fare2u</p>
+            <p className="text-slate-600 text-sm">See what&apos;s new in Fare2U</p>
           </Link>
         </div>
 
@@ -282,7 +282,7 @@ export default function HelpCenter() {
               Contact Support
             </Link>
             <a
-              href="mailto:sales@fare2u.com"
+              href="mailto:sales@Fare2U.com"
               className="inline-block bg-white text-green-600 border-2 border-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors"
             >
               Email Us

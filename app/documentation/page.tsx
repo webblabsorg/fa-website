@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Documentation | Fare2u',
-  description: 'Complete documentation and user guide for Fare2u - Livestock Farm Management Software',
+  title: 'Documentation | Fare2U',
+  description: 'Complete documentation and user guide for Fare2U - Livestock Farm Management Software',
 }
 
 export default function Documentation() {
@@ -16,7 +16,7 @@ export default function Documentation() {
             ← Back to Home
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Documentation</h1>
-          <p className="text-slate-300">Complete guide to using Fare2u - Livestock Management System v2.3.1</p>
+          <p className="text-slate-300">Complete guide to using Fare2U - Livestock Management System v2.3.1</p>
         </div>
       </div>
 
@@ -69,16 +69,16 @@ export default function Documentation() {
               <section id="introduction" className="mb-12">
                 <h2 className="text-3xl font-bold text-slate-900 mb-4">Introduction</h2>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Fare2u is a comprehensive livestock management system that helps farmers record and track their livestock from purchase or birth all the way to sale. The system organizes all activities by batch and keeps track of the most important dates in the lifetime of your animals.
+                  Fare2U is a comprehensive livestock management system that helps farmers record and track their livestock from purchase or birth all the way to sale. The system organizes all activities by batch and keeps track of the most important dates in the lifetime of your animals.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  With Fare2u, you can manage cattle, poultry, pigs, goats, rabbits, and other farm animals. Track animal counts per shed and batch with costing and performance metrics, as well as financial tracking from sales. Special features include vaccination management, feed tracking, and death management.
+                  With Fare2U, you can manage cattle, poultry, pigs, goats, rabbits, and other farm animals. Track animal counts per shed and batch with costing and performance metrics, as well as financial tracking from sales. Special features include vaccination management, feed tracking, and death management.
                 </p>
                 <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-6">
                   <p className="text-slate-700">
                     <strong className="text-green-800">System Version:</strong> v2.3.1<br />
                     <strong className="text-green-800">Last Updated:</strong> November 2025<br />
-                    <strong className="text-green-800">Support:</strong> sales@fare2u.com
+                    <strong className="text-green-800">Support:</strong> sales@Fare2U.com
                   </p>
                 </div>
               </section>
@@ -342,7 +342,7 @@ export default function Documentation() {
               <section id="reports" className="mb-12">
                 <h2 className="text-3xl font-bold text-slate-900 mb-4">Reports & Analytics</h2>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Fare2u provides comprehensive reporting across all modules:
+                  Fare2U provides comprehensive reporting across all modules:
                 </p>
                 <ul className="list-disc pl-6 text-slate-600 space-y-2">
                   <li><strong>Livestock Reports:</strong> Complete inventory and animal history</li>
@@ -368,7 +368,7 @@ export default function Documentation() {
 
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Language Settings</h3>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Fare2u supports multiple languages. Change your preferred language from the Language Setup section.
+                  Fare2U supports multiple languages. Change your preferred language from the Language Setup section.
                 </p>
 
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">User Profile</h3>

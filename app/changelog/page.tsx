@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Changelog | Fare2u',
-  description: 'Latest updates, features, and improvements to Fare2u - Livestock Farm Management Software',
+  title: 'Changelog | Fare2U',
+  description: 'Latest updates, features, and improvements to Fare2U - Livestock Farm Management Software',
 }
 
 export default function Changelog() {
@@ -16,7 +16,7 @@ export default function Changelog() {
             ← Back to Home
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Changelog</h1>
-          <p className="text-slate-300">Track all updates, features, and improvements to Fare2u</p>
+          <p className="text-slate-300">Track all updates, features, and improvements to Fare2U</p>
         </div>
       </div>
 
@@ -394,7 +394,7 @@ export default function Changelog() {
                 href="/#pricing"
                 className="inline-block bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
               >
-                Get Fare2u Now
+                Get Fare2U Now
               </Link>
               <Link
                 href="/support"

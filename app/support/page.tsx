@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Support Portal | Fare2u',
-  description: 'Get help and support for Fare2u - Livestock Farm Management Software',
+  title: 'Support Portal | Fare2U',
+  description: 'Get help and support for Fare2U - Livestock Farm Management Software',
 }
 
 export default function SupportPortal() {
@@ -16,7 +16,7 @@ export default function SupportPortal() {
             ← Back to Home
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Support Portal</h1>
-          <p className="text-slate-300">We&apos;re here to help you get the most out of Fare2u</p>
+          <p className="text-slate-300">We&apos;re here to help you get the most out of Fare2U</p>
         </div>
       </div>
 
@@ -46,7 +46,7 @@ export default function SupportPortal() {
 
             {/* Email Support */}
             <a 
-              href="mailto:support@fare2u.com"
+              href="mailto:support@Fare2U.com"
               className="group bg-white border-2 border-slate-200 rounded-xl p-8 hover:border-green-500 hover:shadow-lg transition-all"
             >
               <div className="text-5xl mb-4">📧</div>
@@ -54,7 +54,7 @@ export default function SupportPortal() {
                 Email Support
               </h3>
               <p className="text-slate-600 mb-4">
-                Prefer email? Send us a message at support@fare2u.com and we&apos;ll respond within 24-48 hours.
+                Prefer email? Send us a message at support@Fare2U.com and we&apos;ll respond within 24-48 hours.
               </p>
               <div className="text-green-600 font-semibold group-hover:translate-x-2 transition-transform inline-block">
                 Send Email →
@@ -88,7 +88,7 @@ export default function SupportPortal() {
                 Help Center
               </h3>
               <p className="text-slate-600 mb-4">
-                Browse our comprehensive FAQ and find instant answers to common questions about Fare2u.
+                Browse our comprehensive FAQ and find instant answers to common questions about Fare2U.
               </p>
               <div className="text-green-600 font-semibold group-hover:translate-x-2 transition-transform inline-block">
                 Browse FAQs →
@@ -212,7 +212,7 @@ export default function SupportPortal() {
               <li className="flex items-start">
                 <span className="text-green-600 mr-3 mt-1">📌</span>
                 <div>
-                  <div className="font-semibold text-slate-900">Fare2u Version Number</div>
+                  <div className="font-semibold text-slate-900">Fare2U Version Number</div>
                   <div className="text-slate-600 text-sm">Found in Settings → System Information</div>
                 </div>
               </li>
@@ -277,7 +277,7 @@ export default function SupportPortal() {
           <div className="mt-16 bg-gradient-to-r from-green-500 to-green-600 rounded-xl p-8 text-center text-white">
             <h2 className="text-3xl font-bold mb-4">Ready to Get Help?</h2>
             <p className="text-green-100 mb-6 max-w-2xl mx-auto">
-              Our support team is standing by to help you succeed with Fare2u. Choose your preferred contact method above.
+              Our support team is standing by to help you succeed with Fare2U. Choose your preferred contact method above.
             </p>
             <Link
               href="/support/ticket"

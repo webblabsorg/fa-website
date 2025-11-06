@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Fare2u',
-  description: 'Privacy Policy for Fare2u - Livestock Farm Management Software',
+  title: 'Privacy Policy | Fare2U',
+  description: 'Privacy Policy for Fare2U - Livestock Farm Management Software',
 }
 
 export default function PrivacyPolicy() {
@@ -26,10 +26,10 @@ export default function PrivacyPolicy() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">1. Introduction</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Welcome to Fare2u (Farm Animal Record & Expense tracking). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our livestock management software.
+              Welcome to Fare2U (Farm Animal Record & Expense tracking). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our livestock management software.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              Fare2u is a web-based application that you install on your own domain and hosting. We do not collect, store, or access your farm data. All data is stored on your own server/hosting.
+              Fare2U is a web-based application that you install on your own domain and hosting. We do not collect, store, or access your farm data. All data is stored on your own server/hosting.
             </p>
           </section>
 
@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
             
             <h3 className="text-xl font-semibold text-slate-900 mb-3">2.1 Information We Collect</h3>
             <p className="text-slate-600 leading-relaxed mb-4">
-              When you purchase Fare2u, we collect:
+              When you purchase Fare2U, we collect:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2 mb-4">
               <li>Name and email address (for license delivery)</li>
@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>Your livestock records or farm data</li>
               <li>Financial information stored in the application</li>
-              <li>Any data you enter into Fare2u</li>
+              <li>Any data you enter into Fare2U</li>
               <li>Usage analytics or tracking data from within the application</li>
             </ul>
           </section>
@@ -87,7 +87,7 @@ export default function PrivacyPolicy() {
 
             <h3 className="text-xl font-semibold text-slate-900 mb-3">4.3 Backup Responsibility</h3>
             <p className="text-slate-600 leading-relaxed">
-              Since your data is stored on your own hosting, you are responsible for backing it up. Fare2u provides export features to help you create backups. Most hosting providers offer automatic backup services.
+              Since your data is stored on your own hosting, you are responsible for backing it up. Fare2U provides export features to help you create backups. Most hosting providers offer automatic backup services.
             </p>
           </section>
 
@@ -117,8 +117,8 @@ export default function PrivacyPolicy() {
             </ul>
             <p className="text-slate-600 leading-relaxed mt-4">
               To exercise these rights, contact us at{' '}
-              <a href="mailto:sales@fare2u.com" className="text-green-600 hover:text-green-700">
-                sales@fare2u.com
+              <a href="mailto:sales@Fare2U.com" className="text-green-600 hover:text-green-700">
+                sales@Fare2U.com
               </a>
             </p>
           </section>
@@ -133,7 +133,7 @@ export default function PrivacyPolicy() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">8. Children&apos;s Privacy</h2>
             <p className="text-slate-600 leading-relaxed">
-              Fare2u is not intended for children under 13. We do not knowingly collect information from children under 13. If we discover we have collected information from a child under 13, we will delete it immediately.
+              Fare2U is not intended for children under 13. We do not knowingly collect information from children under 13. If we discover we have collected information from a child under 13, we will delete it immediately.
             </p>
           </section>
 
@@ -152,8 +152,8 @@ export default function PrivacyPolicy() {
             <div className="bg-slate-50 rounded-lg p-6 border border-slate-200">
               <p className="text-slate-700 mb-4">
                 <strong>Email:</strong>{' '}
-                <a href="mailto:sales@fare2u.com" className="text-green-600 hover:text-green-700">
-                  sales@fare2u.com
+                <a href="mailto:sales@Fare2U.com" className="text-green-600 hover:text-green-700">
+                  sales@Fare2U.com
                 </a>
               </p>
               <p className="text-slate-700 mb-4">

@@ -4,7 +4,7 @@ import { XCircle, ArrowLeft, Mail, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export const metadata: Metadata = {
-  title: 'Payment Cancelled | Fare2u',
+  title: 'Payment Cancelled | Fare2U',
   description: 'Your payment was cancelled',
   robots: {
     index: false,
@@ -39,7 +39,7 @@ export default function CancelPage() {
           </p>
 
           <div className="bg-green-50 rounded-lg p-6 border border-green-200">
-            <h3 className="font-bold text-slate-900 mb-3">Why Choose Fare2u?</h3>
+            <h3 className="font-bold text-slate-900 mb-3">Why Choose Fare2U?</h3>
             <ul className="text-left space-y-2 text-slate-700">
               <li className="flex items-start gap-2">
                 <span className="text-green-600">✓</span>
@@ -72,10 +72,10 @@ export default function CancelPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:sales@fare2u.com"
+              href="mailto:sales@Fare2U.com"
               className="text-green-600 hover:text-green-700 font-medium"
             >
-              sales@fare2u.com
+              sales@Fare2U.com
             </a>
             <span className="hidden sm:block text-slate-400">•</span>
             <a
@@ -115,7 +115,7 @@ export default function CancelPage() {
           </Link>
           <span className="text-slate-400">•</span>
           <a 
-            href="https://lsk.fare2u.com/auth/login" 
+            href="https://lsk.Fare2U.com/auth/login" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-green-600 hover:text-green-700"

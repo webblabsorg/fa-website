@@ -90,7 +90,7 @@ export function UseCases() {
             className="text-xl text-slate-300 max-w-3xl mx-auto"
           >
             Whether you raise cattle, poultry, or run a mixed operation, 
-            Fare2u adapts to your specific farming needs.
+            Fare2U adapts to your specific farming needs.
           </motion.p>
         </motion.div>
 

@@ -204,7 +204,7 @@ function InputStep({ formData, onChange, onCalculate }: InputStepProps) {
     <div className="space-y-6">
       <div>
         <p className="text-slate-600 mb-6">
-          Answer a few quick questions to see how much time and money you could save with Fare2u.
+          Answer a few quick questions to see how much time and money you could save with Fare2U.
         </p>
       </div>
 
@@ -320,7 +320,7 @@ function ResultsStep({ results, formData, onRecalculate, onClose }: ResultsStepP
       {/* Summary */}
       <div className="text-center pb-6 border-b border-slate-200">
         <h3 className="text-2xl font-bold text-slate-900 mb-2">
-          Your Farm&apos;s Potential with Fare2u
+          Your Farm&apos;s Potential with Fare2U
         </h3>
         <p className="text-slate-600">
           Based on {formData.animalCount} {formData.farmType} animals
@@ -413,7 +413,7 @@ function ResultsStep({ results, formData, onRecalculate, onClose }: ResultsStepP
 
       {/* CTAs */}
       <div className="flex flex-col sm:flex-row gap-3 pt-4">
-        <Link href="https://lsk.fare2u.com/auth/login" target="_blank" className="flex-1">
+        <Link href="https://lsk.Fare2U.com/auth/login" target="_blank" className="flex-1">
           <Button
             size="lg"
             variant="outline"
@@ -423,13 +423,13 @@ function ResultsStep({ results, formData, onRecalculate, onClose }: ResultsStepP
             Try Live Demo
           </Button>
         </Link>
-        <Link href="https://codecanyon.net/item/fare2u-livestock-management-system/51630743" target="_blank" className="flex-1">
+        <Link href="https://codecanyon.net/item/Fare2U-livestock-management-system/51630743" target="_blank" className="flex-1">
           <Button
             size="lg"
             className="w-full bg-green-600 hover:bg-green-700 text-white group"
             onClick={onClose}
           >
-            Get Fare2u for $99
+            Get Fare2U for $99
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </Link>

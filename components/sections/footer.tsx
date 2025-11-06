@@ -10,7 +10,7 @@ const footerLinks = {
   product: [
     { label: 'Features', href: '#features' },
     { label: 'Pricing', href: '#pricing' },
-    { label: 'Live Demo', href: 'https://lsk.fare2u.com/auth/login', external: true },
+    { label: 'Live Demo', href: 'https://lsk.Fare2U.com/auth/login', external: true },
     { label: 'Documentation', href: '/documentation' },
     { label: 'Changelog', href: '/changelog' },
   ],
@@ -140,29 +140,29 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:sales@fare2u.com"
+                  href="mailto:sales@Fare2U.com"
                   className="text-sm hover:text-green-400 transition-colors duration-200 flex items-center gap-2"
                 >
                   <Mail className="w-4 h-4" />
-                  <span>sales@fare2u.com</span>
+                  <span>sales@Fare2U.com</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:support@fare2u.com"
+                  href="mailto:support@Fare2U.com"
                   className="text-sm hover:text-green-400 transition-colors duration-200 flex items-center gap-2"
                 >
                   <Mail className="w-4 h-4" />
-                  <span>support@fare2u.com</span>
+                  <span>support@Fare2U.com</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:billing@fare2u.com"
+                  href="mailto:billing@Fare2U.com"
                   className="text-sm hover:text-green-400 transition-colors duration-200 flex items-center gap-2"
                 >
                   <Mail className="w-4 h-4" />
-                  <span>billing@fare2u.com</span>
+                  <span>billing@Fare2U.com</span>
                 </a>
               </li>
               <li className="text-sm">
@@ -193,7 +193,7 @@ export function Footer() {
           <div className="text-center">
             {/* Copyright */}
             <p className="text-sm text-slate-500">
-              © {currentYear} Fare2u. All rights reserved.
+              © {currentYear} Fare2U. All rights reserved.
             </p>
           </div>
         </div>

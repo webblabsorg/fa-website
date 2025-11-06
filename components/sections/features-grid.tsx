@@ -108,7 +108,7 @@ export function FeaturesGrid() {
             variants={fadeInUp}
             className="text-xl text-slate-600 max-w-3xl mx-auto"
           >
-            From livestock tracking to financial management, Fare2u gives you all the tools 
+            From livestock tracking to financial management, Fare2U gives you all the tools 
             to make smarter decisions and increase your bottom line.
           </motion.p>
         </motion.div>

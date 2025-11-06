@@ -9,7 +9,7 @@ export default function Home() {
     '@graph': [
       {
         '@type': 'SoftwareApplication',
-        name: 'Fare2u - Livestock Farm Management Software',
+        name: 'Fare2U - Livestock Farm Management Software',
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web-based',
         offers: {
@@ -20,7 +20,7 @@ export default function Home() {
           priceValidUntil: '2026-12-31',
           seller: {
             '@type': 'Organization',
-            name: 'Fare2u',
+            name: 'Fare2U',
           },
         },
         aggregateRating: {
@@ -31,14 +31,14 @@ export default function Home() {
           worstRating: '1',
         },
         description: 'Professional livestock farm management software for tracking animals, health records, sales, and expenses. One-time payment of $99 for lifetime access.',
-        screenshot: 'https://fare2u.com/dashboard-screenshot.png',
+        screenshot: 'https://Fare2U.com/dashboard-screenshot.png',
       },
       {
         '@type': 'Organization',
-        '@id': 'https://fare2u.com/#organization',
-        name: 'Fare2u',
-        url: 'https://fare2u.com',
-        logo: 'https://fare2u.com/logo.png',
+        '@id': 'https://Fare2U.com/#organization',
+        name: 'Fare2U',
+        url: 'https://Fare2U.com',
+        logo: 'https://Fare2U.com/logo.png',
         description: 'Professional livestock management software made simple',
         address: {
           '@type': 'PostalAddress',
@@ -50,7 +50,7 @@ export default function Home() {
         },
         contactPoint: {
           '@type': 'ContactPoint',
-          email: 'sales@fare2u.com',
+          email: 'sales@Fare2U.com',
           telephone: '+1-646-693-8098',
           contactType: 'Sales',
           availableLanguage: ['English', 'Spanish', 'French', 'Portuguese', 'Swahili'],
@@ -69,7 +69,7 @@ export default function Home() {
             name: 'Is this really a one-time payment?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Yes! You pay $99 once and own Fare2u forever. No monthly fees, no recurring charges, no hidden costs. You get lifetime access to the software and all its features.',
+              text: 'Yes! You pay $99 once and own Fare2U forever. No monthly fees, no recurring charges, no hidden costs. You get lifetime access to the software and all its features.',
             },
           },
           {
@@ -77,7 +77,7 @@ export default function Home() {
             name: 'What types of livestock are supported?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Fare2u supports all common livestock: cattle, sheep, goats, pigs, chickens, ducks, horses, rabbits, and more. You can also add custom animal types.',
+              text: 'Fare2U supports all common livestock: cattle, sheep, goats, pigs, chickens, ducks, horses, rabbits, and more. You can also add custom animal types.',
             },
           },
           {
@@ -85,7 +85,7 @@ export default function Home() {
             name: 'Where is the software installed?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Fare2u is a web-based application installed on your own domain and hosting. You need a domain name and hosting provider. We offer optional VPS hosting for $7/month, or you can use your own hosting. We provide free installation assistance.',
+              text: 'Fare2U is a web-based application installed on your own domain and hosting. You need a domain name and hosting provider. We offer optional VPS hosting for $7/month, or you can use your own hosting. We provide free installation assistance.',
             },
           },
           {
@@ -93,7 +93,7 @@ export default function Home() {
             name: 'Do you offer refunds?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Yes! We offer a no-questions-asked 30-day money-back guarantee. If Fare2u doesn\'t work for your farm for any reason, just email us within 30 days for a full refund.',
+              text: 'Yes! We offer a no-questions-asked 30-day money-back guarantee. If Fare2U doesn\'t work for your farm for any reason, just email us within 30 days for a full refund.',
             },
           },
         ],

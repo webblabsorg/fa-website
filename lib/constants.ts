@@ -42,7 +42,7 @@ export const CONTACT = {
  * Demo and Product URLs
  */
 export const URLS = {
-  demo: 'https://lsk.fare2u.com/',
+  demo: 'https://lsk.Fare2U.com/',
   checkout: '/checkout',
 } as const
 
@@ -131,7 +131,7 @@ export const FAQ_ITEMS = [
   },
   {
     question: 'Where is the software installed?',
-    answer: 'Fare2u is a web-based application installed on your own domain and hosting. You need a domain name and hosting provider. We offer optional VPS hosting for $7/month, or you can use your own hosting. We provide free installation assistance.',
+    answer: 'Fare2U is a web-based application installed on your own domain and hosting. You need a domain name and hosting provider. We offer optional VPS hosting for $7/month, or you can use your own hosting. We provide free installation assistance.',
   },
   {
     question: 'Is it suitable for small farms?',
@@ -143,7 +143,7 @@ export const FAQ_ITEMS = [
   },
   {
     question: 'Do I need hosting?',
-    answer: 'Yes, Fare2u runs on your own domain and hosting. We provide VPS hosting for just $7/month (optional), or you can use your existing hosting provider. Free installation service is included with every purchase.',
+    answer: 'Yes, Fare2U runs on your own domain and hosting. We provide VPS hosting for just $7/month (optional), or you can use your existing hosting provider. Free installation service is included with every purchase.',
   },
   {
     question: 'Can multiple users access it?',

@@ -58,7 +58,7 @@ export function TrustBadges() {
               Risk-Free Investment in Your Farm
             </h3>
             <p className="text-slate-600 max-w-2xl mx-auto">
-              We stand behind Fare2u with guarantees that protect your investment
+              We stand behind Fare2U with guarantees that protect your investment
             </p>
           </motion.div>
 
@@ -96,7 +96,7 @@ export function TrustBadges() {
               100% Satisfaction Guarantee
             </h3>
             <p className="text-green-100 text-lg mb-6">
-              Try Fare2u risk-free for 30 days. If it doesn&apos;t work for your farm, 
+              Try Fare2U risk-free for 30 days. If it doesn&apos;t work for your farm, 
               we&apos;ll refund every penny. No hassle, no questions asked.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-green-100">
