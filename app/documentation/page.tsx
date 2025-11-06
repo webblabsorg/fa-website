@@ -129,7 +129,7 @@ export default function Documentation() {
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Adding Livestock Types</h3>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2 mb-6">
                   <li>Navigate to the Livestock module from the main menu</li>
-                  <li>Click the "Add New Livestock" button</li>
+                  <li>Click the &quot;Add New Livestock&quot; button</li>
                   <li>Enter the livestock name (e.g., Cattle, Poultry, Goats)</li>
                   <li>Save to create the livestock type</li>
                 </ol>
@@ -139,10 +139,10 @@ export default function Documentation() {
                   Variants allow you to categorize different breeds within each livestock type. For example, under Cattle, you might have variants like Holstein, Angus, or Jersey.
                 </p>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2 mb-6">
-                  <li>From the livestock list, click "Add Variant" under your livestock type</li>
+                  <li>From the livestock list, click &quot;Add Variant&quot; under your livestock type</li>
                   <li>Enter variant details (breed name, characteristics)</li>
                   <li>Save the variant</li>
-                  <li>Click "View Variant" to see all variants for a livestock type</li>
+                  <li>Click &quot;View Variant&quot; to see all variants for a livestock type</li>
                 </ol>
 
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Purchasing Livestock</h3>
@@ -151,7 +151,7 @@ export default function Documentation() {
                 </p>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2">
                   <li>Go to Livestock Purchase module</li>
-                  <li>Click "Add New Purchase"</li>
+                  <li>Click &quot;Add New Purchase&quot;</li>
                   <li>Select supplier, livestock type, and variant</li>
                   <li>Enter quantity and price</li>
                   <li>Optionally add payment details if paying immediately</li>
@@ -171,7 +171,7 @@ export default function Documentation() {
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Creating Sheds</h3>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2 mb-6">
                   <li>Navigate to Shed module</li>
-                  <li>Click "Add New Shed"</li>
+                  <li>Click &quot;Add New Shed&quot;</li>
                   <li>Enter unique shed number and name</li>
                   <li>Add capacity and other details</li>
                   <li>Save to create the shed</li>
@@ -182,7 +182,7 @@ export default function Documentation() {
                   When you assign livestock to a shed, the system automatically generates a unique batch number. Each shed assignment creates a new batch for tracking purposes.
                 </p>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2 mb-6">
-                  <li>Go to Shed module and click "Assign to Shed"</li>
+                  <li>Go to Shed module and click &quot;Assign to Shed&quot;</li>
                   <li>Select the purchased livestock you want to assign</li>
                   <li>Choose the destination shed</li>
                   <li>Enter the quantity to assign</li>
@@ -195,7 +195,7 @@ export default function Documentation() {
                   Transfer livestock from one shed to another while maintaining complete history tracking.
                 </p>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2">
-                  <li>Navigate to Shed module, click "Transfer List"</li>
+                  <li>Navigate to Shed module, click &quot;Transfer List&quot;</li>
                   <li>Select the source shed and batch</li>
                   <li>Choose the destination shed</li>
                   <li>All animals in the batch will be transferred together</li>
@@ -207,9 +207,9 @@ export default function Documentation() {
                   Track animal deaths separately from active inventory to maintain accurate records.
                 </p>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2">
-                  <li>Go to Shed module, click "Death List"</li>
+                  <li>Go to Shed module, click &quot;Death List&quot;</li>
                   <li>Select the shed where death occurred</li>
-                  <li>Click "Add New Death"</li>
+                  <li>Click &quot;Add New Death&quot;</li>
                   <li>Enter quantity and date</li>
                   <li>Deaths are excluded from active inventory counts</li>
                 </ol>
@@ -223,16 +223,16 @@ export default function Documentation() {
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2 mb-6">
                   <li>Go to Vaccine module</li>
                   <li>Create vaccine routes (injection, oral, etc.) in Routing section</li>
-                  <li>Click "Add New Vaccine" to create vaccine types</li>
+                  <li>Click &quot;Add New Vaccine&quot; to create vaccine types</li>
                   <li>Enter vaccine name and unit</li>
                 </ol>
 
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Assigning Vaccination Schedules</h3>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2 mb-6">
-                  <li>From vaccine list, click "Assign" button</li>
+                  <li>From vaccine list, click &quot;Assign&quot; button</li>
                   <li>Select livestock type and variant</li>
                   <li>Add dose information (quantity, days interval, route)</li>
-                  <li>Click "Add More Dose" for multiple doses</li>
+                  <li>Click &quot;Add More Dose&quot; for multiple doses</li>
                   <li>Submit to create vaccination schedule</li>
                 </ol>
 
@@ -249,14 +249,14 @@ export default function Documentation() {
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2">
                   <li>Navigate to Vaccination Schedule</li>
                   <li>View shed-wise vaccination dates</li>
-                  <li>Click "Dose" button for due vaccinations</li>
+                  <li>Click &quot;Dose&quot; button for due vaccinations</li>
                   <li>Enter quantity used from stock</li>
                   <li>Confirm dose completion</li>
                   <li>System automatically schedules next dose</li>
                 </ol>
                 <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-r-lg my-4">
                   <p className="text-sm text-slate-700">
-                    <strong className="text-yellow-800">Tip:</strong> You can revert/undo a dose if entered incorrectly. Use "View Used Vaccine" to edit quantities.
+                    <strong className="text-yellow-800">Tip:</strong> You can revert/undo a dose if entered incorrectly. Use &quot;View Used Vaccine&quot; to edit quantities.
                   </p>
                 </div>
               </section>
@@ -269,13 +269,13 @@ export default function Documentation() {
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2 mb-6">
                   <li>Ensure you have created product units in Settings</li>
                   <li>Go to Food module</li>
-                  <li>Click "Add New Food"</li>
+                  <li>Click &quot;Add New Food&quot;</li>
                   <li>Enter food name and select unit</li>
                 </ol>
 
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Assigning Feed to Batches</h3>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2 mb-6">
-                  <li>From food list, click "Assign Batch"</li>
+                  <li>From food list, click &quot;Assign Batch&quot;</li>
                   <li>Select shed and batch</li>
                   <li>Enter daily feed requirements for each food type</li>
                   <li>Submit to create feeding plan</li>
@@ -284,7 +284,7 @@ export default function Documentation() {
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Daily Feed Distribution</h3>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2">
                   <li>Go to Food Stock module</li>
-                  <li>Click "Distribute Food" for assigned batches</li>
+                  <li>Click &quot;Distribute Food&quot; for assigned batches</li>
                   <li>System shows available stock</li>
                   <li>Confirm daily distribution</li>
                   <li>Stock levels update automatically</li>
@@ -307,7 +307,7 @@ export default function Documentation() {
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Recording Production</h3>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2">
                   <li>Go to assigned product in Production module</li>
-                  <li>Click "Add Stock" for daily production</li>
+                  <li>Click &quot;Add Stock&quot; for daily production</li>
                   <li>Enter quantity produced</li>
                   <li>Stock updates automatically</li>
                   <li>Track production trends per batch</li>
@@ -322,7 +322,7 @@ export default function Documentation() {
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2 mb-6">
                   <li>Ensure you have created clients in Client module</li>
                   <li>Go to Sale → Livestock Sale List</li>
-                  <li>Click "Add New Sale"</li>
+                  <li>Click &quot;Add New Sale&quot;</li>
                   <li>Select client, shed, and batch</li>
                   <li>Enter quantity and price</li>
                   <li>Add payment details if receiving payment immediately</li>
@@ -331,7 +331,7 @@ export default function Documentation() {
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Product Sales</h3>
                 <ol className="list-decimal pl-6 text-slate-600 space-y-2">
                   <li>Go to Sale → Product Sale List</li>
-                  <li>Click "Add New Product Sale"</li>
+                  <li>Click &quot;Add New Product Sale&quot;</li>
                   <li>Select client and products from stock</li>
                   <li>Enter quantities and prices</li>
                   <li>Multiple products can be added per invoice</li>

@@ -1,6 +1,5 @@
 'use client'
 
-import { Metadata } from 'next'
 import Link from 'next/link'
 import { useState } from 'react'
 
@@ -265,7 +264,7 @@ export default function HelpCenter() {
           >
             <div className="text-3xl mb-3">📝</div>
             <h3 className="text-lg font-semibold text-slate-900 mb-2">Changelog</h3>
-            <p className="text-slate-600 text-sm">See what's new in Fare2u</p>
+            <p className="text-slate-600 text-sm">See what&apos;s new in Fare2u</p>
           </Link>
         </div>
 
@@ -273,7 +272,7 @@ export default function HelpCenter() {
         <div className="max-w-4xl mx-auto mt-16 bg-green-50 rounded-lg p-8 border border-green-200 text-center">
           <h2 className="text-2xl font-bold text-slate-900 mb-3">Still Need Help?</h2>
           <p className="text-slate-600 mb-6">
-            Can't find what you're looking for? Our support team is ready to assist you.
+            Can&apos;t find what you&apos;re looking for? Our support team is ready to assist you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
