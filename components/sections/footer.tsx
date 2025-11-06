@@ -144,6 +144,24 @@ export function Footer() {
                   <span>sales@fare2u.com</span>
                 </a>
               </li>
+              <li>
+                <a
+                  href="mailto:support@fare2u.com"
+                  className="text-sm hover:text-green-400 transition-colors duration-200 flex items-center gap-2"
+                >
+                  <Mail className="w-4 h-4" />
+                  <span>support@fare2u.com</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:billing@fare2u.com"
+                  className="text-sm hover:text-green-400 transition-colors duration-200 flex items-center gap-2"
+                >
+                  <Mail className="w-4 h-4" />
+                  <span>billing@fare2u.com</span>
+                </a>
+              </li>
               <li className="text-sm">
                 <p className="text-slate-400 leading-relaxed">
                   635 W 42nd St,<br />

@@ -36,10 +36,6 @@ const faqs: FAQItem[] = [
     answer: 'Yes, Fare2u runs on your own domain and hosting. We provide VPS hosting for just $7/month (optional), or you can use your existing hosting provider. Free installation service is included with every purchase.',
   },
   {
-    question: 'Can multiple users access it?',
-    answer: 'Yes! With the $99 license, you can install Fare2u on up to 3 devices for your farm. Multiple family members or employees can use it. You can also upgrade to unlimited devices for larger operations.',
-  },
-  {
     question: 'Is my data secure?',
     answer: 'Your data is 100% yours and stored on your own hosting. We don\'t collect, store, or access your farm data. You have full control and ownership. Your database is on your server, fully private and secure.',
   },

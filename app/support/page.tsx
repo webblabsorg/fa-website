@@ -46,7 +46,7 @@ export default function SupportPortal() {
 
             {/* Email Support */}
             <a 
-              href="mailto:sales@fare2u.com"
+              href="mailto:support@fare2u.com"
               className="group bg-white border-2 border-slate-200 rounded-xl p-8 hover:border-green-500 hover:shadow-lg transition-all"
             >
               <div className="text-5xl mb-4">📧</div>
@@ -54,7 +54,7 @@ export default function SupportPortal() {
                 Email Support
               </h3>
               <p className="text-slate-600 mb-4">
-                Prefer email? Send us a message at sales@fare2u.com and we&apos;ll respond within 24-48 hours.
+                Prefer email? Send us a message at support@fare2u.com and we&apos;ll respond within 24-48 hours.
               </p>
               <div className="text-green-600 font-semibold group-hover:translate-x-2 transition-transform inline-block">
                 Send Email →

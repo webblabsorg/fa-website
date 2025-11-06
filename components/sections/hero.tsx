@@ -46,7 +46,7 @@ export function Hero() {
             className="text-xl sm:text-2xl md:text-3xl text-sage-100 font-medium"
             variants={fadeInUp}
           >
-            Track every animal, vaccination, and expense in one place.
+            Complete livestock tracking from purchase to sale with batch management, vaccination schedules, feed tracking, and production monitoring.
             <br />
             <span className="text-sage-300">Pay once. Own forever. No monthly fees.</span>
           </motion.p>
@@ -56,7 +56,7 @@ export function Hero() {
             className="text-base sm:text-lg text-slate-200 max-w-2xl mx-auto"
             variants={fadeInUp}
           >
-            Join 11,280+ farmers who&apos;ve ditched spreadsheets and paper for a system that actually helps them make better decisions, save time, and increase profits.
+            Join 11,280+ farmers managing cattle, poultry, pigs, goats, and more with automated vaccination reminders, feed cost tracking, and comprehensive financial reports. One system for your entire operation.
           </motion.p>
 
           {/* CTA Buttons */}

@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+import { DemoButton } from '@/components/shared/demo-button'
 import { Logo } from '@/components/shared/logo'
 import { cn } from '@/lib/utils'
 
@@ -89,7 +89,7 @@ export function Navigation() {
                   {link.label}
                 </a>
               ))}
-              <Button
+              <DemoButton
                 size="sm"
                 className={cn(
                   'transition-all duration-300',
@@ -97,9 +97,7 @@ export function Navigation() {
                     ? 'bg-sage-500 hover:bg-sage-600'
                     : 'bg-white text-primary-600 hover:bg-sage-50'
                 )}
-              >
-                Get Started
-              </Button>
+              />
             </div>
 
             {/* Mobile Menu Button */}
@@ -171,12 +169,10 @@ export function Navigation() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: navLinks.length * 0.1 }}
                 >
-                  <Button
+                  <DemoButton
                     className="w-full bg-sage-500 hover:bg-sage-600"
                     size="lg"
-                  >
-                    Get Started
-                  </Button>
+                  />
                 </motion.div>
 
                 {/* Mobile Menu Footer */}

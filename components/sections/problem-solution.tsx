@@ -5,17 +5,17 @@ import { X, CheckCircle2, FileQuestion, Calendar, Receipt, AlertCircle } from 'l
 import { fadeInUp, staggerContainer } from '@/lib/animations'
 
 const problems = [
-  { icon: FileQuestion, text: 'Scattered records across notebooks and spreadsheets' },
-  { icon: Receipt, text: 'Lost receipts and missing expense tracking' },
-  { icon: Calendar, text: 'Forgotten vaccination schedules and health checks' },
-  { icon: AlertCircle, text: 'No clear view of farm profitability' },
+  { icon: FileQuestion, text: 'Can\'t track which animals were vaccinated and when doses are due' },
+  { icon: Receipt, text: 'No idea how much feed each batch consumes or costs per animal' },
+  { icon: Calendar, text: 'Missing livestock deaths, transfers, and reproduction records' },
+  { icon: AlertCircle, text: 'Unable to calculate profit/loss per batch or shed' },
 ]
 
 const solutions = [
-  { icon: CheckCircle2, text: 'All records in one centralized, searchable system' },
-  { icon: CheckCircle2, text: 'Automated expense tracking and receipt storage' },
-  { icon: CheckCircle2, text: 'Smart reminders for health schedules and tasks' },
-  { icon: CheckCircle2, text: 'Real-time dashboards showing profit and performance' },
+  { icon: CheckCircle2, text: 'Automated vaccination schedules with dose tracking per batch' },
+  { icon: CheckCircle2, text: 'Daily feed distribution tracking with cost analysis per animal' },
+  { icon: CheckCircle2, text: 'Complete batch lifecycle: purchase, shed assignment, transfers, deaths, sales' },
+  { icon: CheckCircle2, text: 'Detailed batch profitability reports showing ROI and performance metrics' },
 ]
 
 export function ProblemSolution() {
@@ -63,8 +63,8 @@ export function ProblemSolution() {
                 </span>
               </h2>
               <p className="text-xl text-slate-600 mb-8">
-                Most farmers waste hours every week managing paperwork, chasing down information, 
-                and worrying about what they might have missed.
+                Most livestock farmers struggle with tracking vaccinations, calculating feed costs, 
+                managing multiple sheds and batches, and understanding which groups are actually profitable.
               </p>
               
               <div className="space-y-4">
