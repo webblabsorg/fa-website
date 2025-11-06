@@ -31,23 +31,17 @@ export function ProblemSolution() {
           variants={staggerContainer}
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Image Placeholder - Left Side */}
+            {/* Problem Image - Left Side */}
             <motion.div
               variants={fadeInUp}
               className="order-2 md:order-1"
             >
-              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-slate-200 to-slate-300">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center p-8 bg-white/80 backdrop-blur-sm rounded-xl">
-                    <AlertCircle className="w-16 h-16 text-red-500 mx-auto mb-4" />
-                    <p className="text-slate-600 font-medium">
-                      Stressed farmer with paperwork
-                    </p>
-                    <p className="text-sm text-slate-500 mt-2">
-                      Image placeholder: /problem-stressed-farmer.jpg
-                    </p>
-                  </div>
-                </div>
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+                <img
+                  src="/images/problem-stressed-farmer.png"
+                  alt="Stressed farmer with paperwork - showing the challenges of manual livestock management"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </motion.div>
 
@@ -125,23 +119,17 @@ export function ProblemSolution() {
               </div>
             </motion.div>
 
-            {/* Image Placeholder - Right Side */}
+            {/* Solution Image - Right Side */}
             <motion.div
               variants={fadeInUp}
               className="order-1 md:order-2"
             >
-              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-green-200 to-sage-300">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center p-8 bg-white/80 backdrop-blur-sm rounded-xl">
-                    <CheckCircle2 className="w-16 h-16 text-green-600 mx-auto mb-4" />
-                    <p className="text-slate-600 font-medium">
-                      Confident farmer using tablet
-                    </p>
-                    <p className="text-sm text-slate-500 mt-2">
-                      Image placeholder: /solution-farmer-tablet.jpg
-                    </p>
-                  </div>
-                </div>
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+                <img
+                  src="/images/solution-confident-farmer.jpg"
+                  alt="Confident farmer using tablet - modern livestock management with technology"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </motion.div>
           </div>

@@ -25,7 +25,9 @@ export async function POST(request: NextRequest) {
     // Generate ticket number
     const ticketNumber = `TK${Date.now().toString().slice(-6)}`
 
-    // Prepare email content
+    // Prepare email content (ready for email service integration)
+    // Uncomment and configure your email service in EMAIL_SETUP.md
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const emailContent = {
       to: 'support@fare2u.com',
       from: 'noreply@fare2u.com',
@@ -224,6 +226,10 @@ support@fare2u.com
 
     console.log(`✅ Confirmation email queued for: ${email}`)
     console.log('Note: Configure email service to actually send emails')
+    
+    // Prevent unused variable warnings (remove these lines when email service is configured)
+    void emailContent
+    void confirmationEmail
 
     // Return success response
     return NextResponse.json(
