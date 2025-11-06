@@ -104,6 +104,9 @@ export default function Home() {
 
   return (
     <>
+      {/* Enhanced Structured Data for Google/Bing Sitelinks */}
+      <StructuredData />
+      
       {/* Structured Data for SEO */}
       <script
         type="application/ld+json"
