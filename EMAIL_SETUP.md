@@ -1,66 +1,16 @@
 # Email Configuration for Support Tickets
 
-## ✅ CONFIGURED - Resend Email Service
-
-The support ticket system is now **fully configured** with Resend email service!
+The support ticket system is now functional! Tickets are submitted to `/api/submit-ticket` but email sending needs to be configured.
 
 ## Current Status
 
 ✅ **Ticket submission is working** - tickets are received and validated
 ✅ **Email templates are ready** - both support team and customer confirmation emails
-✅ **Resend configured** - API key installed and emails will be sent
-⚠️ **Domain verification required** - See important notes below
+⚠️ **Email sending needs configuration** - choose your preferred email service below
 
-## ⚠️ IMPORTANT: Domain Verification Required
+## Quick Setup Options
 
-Before emails will be sent from `support@fare2u.com`, you need to:
-
-1. **Login to Resend Dashboard**
-   - Go to: https://resend.com/domains
-   - Login with your account
-
-2. **Add and Verify fare2u.com Domain**
-   - Click "Add Domain"
-   - Enter: `fare2u.com`
-   - Add the DNS records Resend provides to your domain registrar:
-     - SPF record
-     - DKIM record
-     - DMARC record (optional but recommended)
-
-3. **Wait for Verification**
-   - DNS propagation takes 5 minutes to 48 hours
-   - Check verification status in Resend dashboard
-   - Once verified, emails will send successfully
-
-4. **Alternative: Use Resend's Test Domain (Temporary)**
-   - For testing, you can use: `onboarding@resend.dev`
-   - Change in `route.ts`: `from: 'onboarding@resend.dev'`
-   - This works immediately but shows "via resend.dev" in email
-
-## Configuration Details (Already Completed)
-
-### ✅ Resend Package Installed
-
-```bash
-npm install resend
-```
-
-### ✅ API Key Configured
-
-Added to `.env.local`:
-```env
-RESEND_API_KEY=your_resend_api_key_here
-```
-
-**Note:** The actual API key is configured in your `.env.local` file and is excluded from git for security.
-
-### ✅ Code Updated
-
-The `app/api/submit-ticket/route.ts` file is now configured to send emails via Resend.
-
-## Quick Setup Options (Reference)
-
-### Option 1: Resend (✅ Currently Configured)
+### Option 1: Resend (Recommended - Modern & Simple)
 
 Resend is a modern email API designed for developers. Free tier includes 3,000 emails/month.
 
@@ -104,7 +54,7 @@ Resend is a modern email API designed for developers. Free tier includes 3,000 e
 
 ### Option 2: SendGrid (Popular Choice)
 
-SendGrid offers 100 emails/day on free tier.
+SendGrid offers 100 emails/day on the free tier.
 
 1. **Install SendGrid:**
    ```bash
