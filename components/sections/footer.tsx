@@ -26,13 +26,14 @@ const footerLinks = {
   ],
 }
 
-const socialLinks = [
-  { icon: Facebook, href: '#', label: 'Facebook' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
-  { icon: Youtube, href: '#', label: 'YouTube' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-]
+// Social links - Commented out for future use
+// const socialLinks = [
+//   { icon: Facebook, href: '#', label: 'Facebook' },
+//   { icon: Twitter, href: '#', label: 'Twitter' },
+//   { icon: Instagram, href: '#', label: 'Instagram' },
+//   { icon: Youtube, href: '#', label: 'YouTube' },
+//   { icon: Linkedin, href: '#', label: 'LinkedIn' },
+// ]
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
