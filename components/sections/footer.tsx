@@ -1,6 +1,8 @@
 'use client'
 
-import { Facebook, Twitter, Instagram, Youtube, Linkedin, Mail, ExternalLink } from 'lucide-react'
+// Social media icons - Commented out for future use
+// import { Facebook, Twitter, Instagram, Youtube, Linkedin, Mail, ExternalLink } from 'lucide-react'
+import { Mail, ExternalLink } from 'lucide-react'
 import Link from 'next/link'
 import { Logo } from '@/components/shared/logo'
 
