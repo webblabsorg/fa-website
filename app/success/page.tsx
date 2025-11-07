@@ -1,16 +1,10 @@
-import { Metadata } from 'next'
+'use client'
+
+import { useEffect } from 'react'
 import Link from 'next/link'
 import { CheckCircle, Download, Mail, Headphones, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-
-export const metadata: Metadata = {
-  title: 'Order Confirmed - Thank You! | Fare2U',
-  description: 'Your Fare2U license has been purchased successfully',
-  robots: {
-    index: false,
-    follow: false,
-  },
-}
+import { trackMetaEvent } from '@/components/meta-pixel'
 
 export default function SuccessPage({
   searchParams,
@@ -18,6 +12,16 @@ export default function SuccessPage({
   searchParams: { session_id?: string }
 }) {
   const sessionId = searchParams.session_id
+
+  useEffect(() => {
+    // Track Meta Pixel Purchase event
+    trackMetaEvent('Purchase', {
+      value: 99.00,
+      currency: 'USD',
+      content_name: 'Fare2U Lifetime License',
+      content_type: 'product',
+    })
+  }, [])
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white flex items-center justify-center px-4">

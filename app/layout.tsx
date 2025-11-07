@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import Script from "next/script"
+import { MetaPixel } from "@/components/meta-pixel"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -59,6 +60,24 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-GSP2Z0VLFZ"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-GSP2Z0VLFZ');
+            `,
+          }}
+        />
+        
         {/* Microsoft Clarity */}
         <Script
           id="microsoft-clarity"
@@ -75,6 +94,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
+        <MetaPixel />
         {children}
         
         {/* Tidio Chat Widget */}
