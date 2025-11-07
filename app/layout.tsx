@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import Script from "next/script"
+import { Suspense } from "react"
 import { MetaPixel } from "@/components/meta-pixel"
 import "./globals.css"
 
@@ -94,7 +95,9 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <MetaPixel />
+        <Suspense fallback={null}>
+          <MetaPixel />
+        </Suspense>
         {children}
         
         {/* Tidio Chat Widget */}

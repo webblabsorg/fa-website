@@ -4,9 +4,20 @@ import Script from 'next/script'
 import { useEffect } from 'react'
 import { usePathname, useSearchParams } from 'next/navigation'
 
+type MetaPixelFunction = {
+  (command: 'track', eventName: string, params?: object): void
+  (command: 'init', pixelId: string): void
+  callMethod?: (...args: unknown[]) => void
+  queue?: unknown[]
+  loaded?: boolean
+  version?: string
+  push?: (...args: unknown[]) => void
+}
+
 declare global {
   interface Window {
-    fbq: any
+    fbq: MetaPixelFunction
+    _fbq?: MetaPixelFunction
   }
 }
 
@@ -49,6 +60,7 @@ export function MetaPixel() {
         }}
       />
       <noscript>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           height="1"
           width="1"
